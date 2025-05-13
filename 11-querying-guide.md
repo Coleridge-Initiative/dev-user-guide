@@ -490,6 +490,6 @@ _**Execution Plan**_: Lastly, an execution plan is a detailed step-by-step proce
 
 It helps to analyze the major phases in the execution of a query. We can also find out which part of the execution is taking more time and optimize that sub-part. The execution plan shows which tables were accessed, what index scans were performed for fetching the data. If joins are present it shows how these tables were merged. Further, we can see a more detailed analysis view of each sub-operation performed during query execution.
 
----
+#
 
 [⬅️ Previous: Adding Additional Packages in R/Python](10-packages.md) | [Back to Home](00-cover.md) | [Next: Accessing ADRF Dashboards ➡️](12-dashboards.md) 

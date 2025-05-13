@@ -26,6 +26,6 @@ The ADRF follows the Five Safes Framework, a data management framework commonly 
 - **Safe Data** - Before transmission to ADRF, all data with personally identifiable or other sensitive information is hashed, and an online data stewardship application provides data stewards with information on who is accessing their data, how it is being accessed, what projects employ it, the characteristics of each data asset, and the status of user agreements. 
 - **Safe Exports** - Users are prevented from unauthorized removal of any information within the secure environment.
 
----
+#
 
 [Back to Home](00-cover.md) | [Next: Obtaining ADRF Access ➡️](02-access.md)

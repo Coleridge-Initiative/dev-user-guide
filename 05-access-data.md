@@ -21,6 +21,6 @@ Structured data, or data that are stored in relational databases, are stored in 
 
 For detailed instructions on how to access data in structed data storage, please see the ADRF's [Redshift Querying Guide](11-querying-guide.md)
 
----
+#
 
 [⬅️ Previous: How to Access and Use Your Project Workspace](04-access-and-use.md) | [Back to Home](00-cover.md) | [Next: Where to Do Your Work ➡️](06-where-to-work.md)

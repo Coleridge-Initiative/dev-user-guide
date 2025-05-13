@@ -7,7 +7,7 @@ _Last Modified:_ 03/20/2025
 
 [Obtaining ADRF Access](obtaining-adrf-access.md)
 
----
+#
 
 ## Table of Contents
 1. [Introduction](#1-introduction)  
@@ -24,7 +24,7 @@ _Last Modified:_ 03/20/2025
 12. [Accessing ADRF Dashboards](#12-accessing-adrf-dashboards) 
 13. [FAQ](#faq)
 
----
+#
 
 ## 1 Introduction
 
@@ -49,7 +49,7 @@ The ADRF follows the Five Safes Framework, a data management framework commonly 
 
 
 
----
+#
 
 ## 2 Obtaining ADRF Access
 
@@ -75,7 +75,7 @@ The ADRF follows the Five Safes Framework, a data management framework commonly 
 ### More Information
 If you have any questions, please contact [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
----
+#
 
 ## 3 Onboarding Modules and Security Training
 
@@ -205,7 +205,7 @@ The Security Training Quiz needs to be completed after the Security Training Vid
   <img src=https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/security_quiz_complete.png alt="Security Quiz Complete">
 </p>
 
----
+#
 
 ## 4 How to Access and Use Your Project Workspace
 
@@ -351,7 +351,7 @@ Structured data, or data that are stored in relational databases, are stored in 
 
 For detailed instructions on how to access data in structed data storage, please see the ADRF's [Redshift Querying Guide](#11-redshift-querying-guide)
 
----
+#
 
 ## 6 Where to Do Your Work
 The sensitive data that you have been approved to access will either be stored in the ADRF's structured or unstructured stroage locations (see How to Access Data](#5-how-to-access-data)).
@@ -382,7 +382,7 @@ The G: drive (data), the L: drive (Libs), and the desktop are not eligible for l
 - Organize folders in a way that makes sense for your particular project. For example, you might have folders for a particular analysis or sub-projects. Dates on file names can be helpful for version control.
 - Keep tabs on how much storage you are using compared to the allocated amount of storage.
 
----
+#
 
 ## 7 How to Work Collaboratively in the ADRF
 
@@ -394,7 +394,7 @@ Again, remember that when working with teams you may not share the ADRF screen w
 
 The information contained in the ADRF is restricted to reside only in the ADRF for all purposes unless it passes Export Review. This means that it cannot be shared or potentially shared with any unauthorized parties. Do not write down any numbers or figures or tables corresponding to data in the ADRF. Copying and pasting is restricted, but manually circumventing this is also not permitted by your data agreements.
 
----
+#
 
 ## 8 How to Export Output from the ADRF
 To provide ADRF users with the ability to draw from sensitive data, results that are exported from the ADRF must meet rigorous standards meant to protect privacy and confidentiality. To ensure that those standards are met, the ADRF Export Review team reviews each request to ensure that it follows formal guidelines that are set by the respective agency providing the data in partnership with the Coleridge Initiative. Prior to moving data into the ADRF from the agency, the Export Review team suggests default guidelines to implement, based on standard statistical approaches in the U.S. government [^1],[^2] as well as international standards [^3], [^4], and [^5]. The Data Steward from the agency supplying the data works with the team to amend these default rules in line with the agency’s requirements. If you are unsure about the review guidelines for the data you are using in the ADRF or if you have any questions relating to exports, please reach out to [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org) before submitting an export request.
@@ -491,7 +491,7 @@ To request an export be reviewed, please follow the instructions below or you ca
 
 **Note**: To learn more about exporting results, you can watch an instructional video by [right-clicking this link](https://www.youtube.com/watch?v=qXG_i0v_bDQ).
 
----
+#
 ## 9 Do's and Don'ts for Discussing Data Hosted in the ADRF
 
 You **must protect the confidential data** that is hosted inside the ADRF in communicating with your teammates. The general rule is that you should never take any exact number out of the ADRF. This means you should never write down or share any number by text, screenshot, or share an image even with a team-mate. The rules have become more complicated now that everything is online, because even though your teammates are “safe people”, and Zoom conversations are password protected and encrypted, we’d rather err on the side of caution when sharing information over Zoom.
@@ -517,7 +517,7 @@ Percentages and proportions also cannot be directly mentioned. Instead, you can 
 
 **Example**: If a proportion was 30%, you could say “The proportion is about 25%” or “The proportion is between 25% and 50%.”
 
----
+#
 
 ## 10 Adding Additional Packages in R/Python
 
@@ -567,7 +567,7 @@ To install a **specific package version** type:
 pip install pandas==1.2.3
 ```
 
----
+#
 
 ## 11 Redshift Querying Guide
 
@@ -757,7 +757,7 @@ df = pd.read_sql("SELECT * FROM projects.schema_name.table_name", cnxn)
 odbc load, exec("select * from PATH_TO_TABLE") clear dsn("Redshift11_projects_DSN") user("adrf\user.name.project") password("password")
 ```
 
----
+#
 
 ## 12 Accessing ADRF Dashboards
 
@@ -820,7 +820,7 @@ Here, please enter:
 
 Once you enter the appropriate information and click “Log In,” your dashboard should begin to load. This again may take a minute or two - if you run into any issues, please reach out to us at [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
----
+#
 
 ## 13 Frequently Asked Questions (FAQ)
 
@@ -847,7 +847,7 @@ You can reset your ADRF project password by following these steps:
 
 You’ll see a screen where you can choose the project(s) for which you want to update the password.
 
----
+#
 
 ## References
 [^1]: Confidential Information Protection and Statistical Efficiency Act of 2002. (Washington, DC: U.S. GPO, 2002).
