@@ -40,7 +40,6 @@ format:
     sidebar: 
       background: "#4c2a9d"
       search: true
-      logo: images/cilogowht.png
       style: floating
       tools: 
         - icon: github
