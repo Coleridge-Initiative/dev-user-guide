@@ -9,7 +9,6 @@ book:
   date-format: "[Last Updated on] DD MMMM, YYYY"
   chapters:
     - index.md
-    - 00-cover.md
     - 01-intro.md
     - 02-access.md
     - 03-onboarding.md
