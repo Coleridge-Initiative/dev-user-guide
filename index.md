@@ -24,5 +24,5 @@ A detailed guide to help users navigate and use the Coleridge Initiative's Admin
 10. [Adding Additional Packages in R/Python](10-packages.md)
 11. [Redshift Querying Guide](11-querying-guide.md)
 12. [Accessing ADRF Dashboards](12-dashboards.md) 
-13. [FAQ](#faq)
+13. [FAQ](13-faq.md)
 
