@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>16&nbsp; ADRF User Guide – ADRF User Guide</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./13-faq.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d9110c34616fd975cf68685f99bb278d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 3,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dev-document.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">ADRF User Guide</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">ADRF User Guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">ADRF User Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-cover.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">ADRF User Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">1 Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-access.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">2 Obtaining ADRF Access</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">3 Onboarding Modules and Security Training</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-access-and-use.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">4 How to Access and Use Your Project Workspace</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-access-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">5 How to Access Data</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-where-to-work.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">6 Where to Do Your Work</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-collaborate.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">7 How to Work Collaboratively in the ADRF</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-export.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">8 How to Export Output from the ADRF</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-dos-and-donts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">9 Do’s and Don’ts for Discussing Data Hosted in the ADRF</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-packages.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">10 Adding Additional Packages in R/Python</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-querying-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">11 Redshift Querying Guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12-dashboards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">12 Accessing ADRF Dashboards</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13-faq.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">13 Frequently Asked Questions (FAQ)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dev-document.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">ADRF User Guide</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"><span class="header-section-number">17</span> </a>
+  <ul class="collapse">
+  <li><a href="#table-of-contents" id="toc-table-of-contents" class="nav-link" data-scroll-target="#table-of-contents">Table of Contents</a></li>
+  </ul></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><span class="header-section-number">18</span> </a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1 Introduction</a>
+  <ul class="collapse">
+  <li><a href="#about-the-coleridge-initiative" id="toc-about-the-coleridge-initiative" class="nav-link" data-scroll-target="#about-the-coleridge-initiative">About the Coleridge Initiative</a></li>
+  <li><a href="#about-the-administrative-data-research-facility" id="toc-about-the-administrative-data-research-facility" class="nav-link" data-scroll-target="#about-the-administrative-data-research-facility">About the Administrative Data Research Facility</a></li>
+  <li><a href="#the-five-safes-security-framework" id="toc-the-five-safes-security-framework" class="nav-link" data-scroll-target="#the-five-safes-security-framework">The Five Safes Security Framework</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"><span class="header-section-number">19</span> </a>
+  <ul class="collapse">
+  <li><a href="#obtaining-adrf-access" id="toc-obtaining-adrf-access" class="nav-link" data-scroll-target="#obtaining-adrf-access">2 Obtaining ADRF Access</a>
+  <ul class="collapse">
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#account-setup" id="toc-account-setup" class="nav-link" data-scroll-target="#account-setup">Account Setup</a></li>
+  <li><a href="#obtaining-adrf-access-1" id="toc-obtaining-adrf-access-1" class="nav-link" data-scroll-target="#obtaining-adrf-access-1">Obtaining ADRF Access</a></li>
+  <li><a href="#account-registration-and-onboarding-tasks" id="toc-account-registration-and-onboarding-tasks" class="nav-link" data-scroll-target="#account-registration-and-onboarding-tasks">Account Registration and Onboarding Tasks</a></li>
+  <li><a href="#more-information" id="toc-more-information" class="nav-link" data-scroll-target="#more-information">More Information</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"><span class="header-section-number">20</span> </a>
+  <ul class="collapse">
+  <li><a href="#onboarding-modules-and-security-training" id="toc-onboarding-modules-and-security-training" class="nav-link" data-scroll-target="#onboarding-modules-and-security-training">3 Onboarding Modules and Security Training</a>
+  <ul class="collapse">
+  <li><a href="#topics-1" id="toc-topics-1" class="nav-link" data-scroll-target="#topics-1">Topics</a></li>
+  <li><a href="#management-portal" id="toc-management-portal" class="nav-link" data-scroll-target="#management-portal">Management Portal</a></li>
+  <li><a href="#accessing-the-onboarding-tasks" id="toc-accessing-the-onboarding-tasks" class="nav-link" data-scroll-target="#accessing-the-onboarding-tasks">Accessing the Onboarding Tasks</a></li>
+  <li><a href="#signing-the-adrf-terms-of-use-agreement" id="toc-signing-the-adrf-terms-of-use-agreement" class="nav-link" data-scroll-target="#signing-the-adrf-terms-of-use-agreement">Signing the ADRF Terms of Use Agreement</a></li>
+  <li><a href="#watching-the-security-training-video" id="toc-watching-the-security-training-video" class="nav-link" data-scroll-target="#watching-the-security-training-video">Watching the Security Training Video</a></li>
+  <li><a href="#complete-the-security-training-quiz" id="toc-complete-the-security-training-quiz" class="nav-link" data-scroll-target="#complete-the-security-training-quiz">Complete the Security Training Quiz</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"><span class="header-section-number">21</span> </a>
+  <ul class="collapse">
+  <li><a href="#how-to-access-and-use-your-project-workspace" id="toc-how-to-access-and-use-your-project-workspace" class="nav-link" data-scroll-target="#how-to-access-and-use-your-project-workspace">4 How to Access and Use Your Project Workspace</a></li>
+  <li><a href="#topics-2" id="toc-topics-2" class="nav-link" data-scroll-target="#topics-2">### Topics</a>
+  <ul class="collapse">
+  <li><a href="#logging-into-and-logging-out-of-the-adrf" id="toc-logging-into-and-logging-out-of-the-adrf" class="nav-link" data-scroll-target="#logging-into-and-logging-out-of-the-adrf">Logging into and Logging out of the ADRF</a></li>
+  <li><a href="#virtual-desktop-environment" id="toc-virtual-desktop-environment" class="nav-link" data-scroll-target="#virtual-desktop-environment">Virtual Desktop Environment</a></li>
+  <li><a href="#software-in-the-adrf" id="toc-software-in-the-adrf" class="nav-link" data-scroll-target="#software-in-the-adrf">Software in the ADRF</a></li>
+  </ul></li>
+  <li><a href="#how-to-access-data" id="toc-how-to-access-data" class="nav-link" data-scroll-target="#how-to-access-data">5 How to Access Data</a>
+  <ul class="collapse">
+  <li><a href="#accessing-data-stored-in-unstructured-data-storage" id="toc-accessing-data-stored-in-unstructured-data-storage" class="nav-link" data-scroll-target="#accessing-data-stored-in-unstructured-data-storage">Accessing data stored in unstructured data storage</a></li>
+  <li><a href="#accessing-data-stored-in-structured-data-storage" id="toc-accessing-data-stored-in-structured-data-storage" class="nav-link" data-scroll-target="#accessing-data-stored-in-structured-data-storage">Accessing data stored in structured data storage</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"><span class="header-section-number">22</span> </a>
+  <ul class="collapse">
+  <li><a href="#where-to-do-your-work" id="toc-where-to-do-your-work" class="nav-link" data-scroll-target="#where-to-do-your-work">6 Where to Do Your Work</a>
+  <ul class="collapse">
+  <li><a href="#eligible-locations-to-do-your-work" id="toc-eligible-locations-to-do-your-work" class="nav-link" data-scroll-target="#eligible-locations-to-do-your-work">Eligible locations to do your work</a></li>
+  <li><a href="#ineligible-locations-to-do-your-work" id="toc-ineligible-locations-to-do-your-work" class="nav-link" data-scroll-target="#ineligible-locations-to-do-your-work">Ineligible locations to do your work</a></li>
+  <li><a href="#storage-size-restrictions-and-best-practices" id="toc-storage-size-restrictions-and-best-practices" class="nav-link" data-scroll-target="#storage-size-restrictions-and-best-practices">Storage Size Restrictions and Best Practices</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"><span class="header-section-number">23</span> </a>
+  <ul class="collapse">
+  <li><a href="#how-to-work-collaboratively-in-the-adrf" id="toc-how-to-work-collaboratively-in-the-adrf" class="nav-link" data-scroll-target="#how-to-work-collaboratively-in-the-adrf">7 How to Work Collaboratively in the ADRF</a>
+  <ul class="collapse">
+  <li><a href="#shared-folders" id="toc-shared-folders" class="nav-link" data-scroll-target="#shared-folders">Shared Folders</a></li>
+  <li><a href="#sharing-restrictions" id="toc-sharing-restrictions" class="nav-link" data-scroll-target="#sharing-restrictions">Sharing Restrictions</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"><span class="header-section-number">24</span> </a>
+  <ul class="collapse">
+  <li><a href="#how-to-export-output-from-the-adrf" id="toc-how-to-export-output-from-the-adrf" class="nav-link" data-scroll-target="#how-to-export-output-from-the-adrf">8 How to Export Output from the ADRF</a>
+  <ul class="collapse">
+  <li><a href="#general-best-practices-for-a-successful-export" id="toc-general-best-practices-for-a-successful-export" class="nav-link" data-scroll-target="#general-best-practices-for-a-successful-export">General Best Practices for a Successful Export</a></li>
+  <li><a href="#timelines-for-export-process" id="toc-timelines-for-export-process" class="nav-link" data-scroll-target="#timelines-for-export-process">Timelines for Export Process</a></li>
+  <li><a href="#export-review-process" id="toc-export-review-process" class="nav-link" data-scroll-target="#export-review-process">Export Review Process</a></li>
+  <li><a href="#how-to-check-your-export-review-status" id="toc-how-to-check-your-export-review-status" class="nav-link" data-scroll-target="#how-to-check-your-export-review-status">How to Check Your Export Review Status:</a></li>
+  <li><a href="#preparing-data-for-export" id="toc-preparing-data-for-export" class="nav-link" data-scroll-target="#preparing-data-for-export">Preparing Data for Export</a></li>
+  <li><a href="#submitting-an-export-request" id="toc-submitting-an-export-request" class="nav-link" data-scroll-target="#submitting-an-export-request">Submitting an Export Request</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8"><span class="header-section-number">25</span> </a>
+  <ul class="collapse">
+  <li><a href="#dos-and-donts-for-discussing-data-hosted-in-the-adrf" id="toc-dos-and-donts-for-discussing-data-hosted-in-the-adrf" class="nav-link" data-scroll-target="#dos-and-donts-for-discussing-data-hosted-in-the-adrf">9 Do’s and Don’ts for Discussing Data Hosted in the ADRF</a>
+  <ul class="collapse">
+  <li><a href="#exact-numbers" id="toc-exact-numbers" class="nav-link" data-scroll-target="#exact-numbers">Exact Numbers</a></li>
+  <li><a href="#comparing-values" id="toc-comparing-values" class="nav-link" data-scroll-target="#comparing-values">Comparing Values</a></li>
+  <li><a href="#percentagesproportions" id="toc-percentagesproportions" class="nav-link" data-scroll-target="#percentagesproportions">Percentages/Proportions</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"><span class="header-section-number">26</span> </a>
+  <ul class="collapse">
+  <li><a href="#adding-additional-packages-in-rpython" id="toc-adding-additional-packages-in-rpython" class="nav-link" data-scroll-target="#adding-additional-packages-in-rpython">10 Adding Additional Packages in R/Python</a>
+  <ul class="collapse">
+  <li><a href="#add-additional-r-packages" id="toc-add-additional-r-packages" class="nav-link" data-scroll-target="#add-additional-r-packages">Add additional R packages</a></li>
+  <li><a href="#add-additional-python-packages" id="toc-add-additional-python-packages" class="nav-link" data-scroll-target="#add-additional-python-packages">Add additional Python packages</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10"><span class="header-section-number">27</span> </a>
+  <ul class="collapse">
+  <li><a href="#redshift-querying-guide" id="toc-redshift-querying-guide" class="nav-link" data-scroll-target="#redshift-querying-guide">11 Redshift Querying Guide</a>
+  <ul class="collapse">
+  <li><a href="#topics-3" id="toc-topics-3" class="nav-link" data-scroll-target="#topics-3">Topics</a></li>
+  <li><a href="#using-dbeaver-to-access-a-database" id="toc-using-dbeaver-to-access-a-database" class="nav-link" data-scroll-target="#using-dbeaver-to-access-a-database">Using DBeaver to access a database</a></li>
+  <li><a href="#connecting-to-a-database-through-a-statistical-program-using-an-odbc-connection" id="toc-connecting-to-a-database-through-a-statistical-program-using-an-odbc-connection" class="nav-link" data-scroll-target="#connecting-to-a-database-through-a-statistical-program-using-an-odbc-connection">Connecting to a database through a statistical program using an ODBC connection</a></li>
+  <li><a href="#connecting-to-a-database-using-python" id="toc-connecting-to-a-database-using-python" class="nav-link" data-scroll-target="#connecting-to-a-database-using-python">Connecting to a database using Python</a></li>
+  <li><a href="#connecting-to-a-database-using-stata" id="toc-connecting-to-a-database-using-stata" class="nav-link" data-scroll-target="#connecting-to-a-database-using-stata">Connecting to a database using Stata</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11"><span class="header-section-number">28</span> </a>
+  <ul class="collapse">
+  <li><a href="#accessing-adrf-dashboards" id="toc-accessing-adrf-dashboards" class="nav-link" data-scroll-target="#accessing-adrf-dashboards">12 Accessing ADRF Dashboards</a>
+  <ul class="collapse">
+  <li><a href="#step-1-setting-your-dashboard-access-password" id="toc-step-1-setting-your-dashboard-access-password" class="nav-link" data-scroll-target="#step-1-setting-your-dashboard-access-password">Step 1: Setting your dashboard access password</a></li>
+  <li><a href="#step-2-accessing-the-dashboard" id="toc-step-2-accessing-the-dashboard" class="nav-link" data-scroll-target="#step-2-accessing-the-dashboard">Step 2: Accessing the Dashboard</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12"><span class="header-section-number">29</span> </a>
+  <ul class="collapse">
+  <li><a href="#frequently-asked-questions-faq" id="toc-frequently-asked-questions-faq" class="nav-link" data-scroll-target="#frequently-asked-questions-faq">13 Frequently Asked Questions (FAQ)</a>
+  <ul class="collapse">
+  <li><a href="#topics-4" id="toc-topics-4" class="nav-link" data-scroll-target="#topics-4">Topics</a></li>
+  <li><a href="#how-do-i-set-up-my-multifactor-authentication" id="toc-how-do-i-set-up-my-multifactor-authentication" class="nav-link" data-scroll-target="#how-do-i-set-up-my-multifactor-authentication">How do I set up my Multifactor Authentication</a></li>
+  <li><a href="#can-i-set-up-more-than-one-form-of-multifactor-authentication" id="toc-can-i-set-up-more-than-one-form-of-multifactor-authentication" class="nav-link" data-scroll-target="#can-i-set-up-more-than-one-form-of-multifactor-authentication">Can I set up more than one form of Multifactor Authentication?</a></li>
+  <li><a href="#how-can-i-reset-my-okta-password" id="toc-how-can-i-reset-my-okta-password" class="nav-link" data-scroll-target="#how-can-i-reset-my-okta-password">How can I reset my Okta password?</a></li>
+  <li><a href="#how-can-i-reset-my-adrf-password" id="toc-how-can-i-reset-my-adrf-password" class="nav-link" data-scroll-target="#how-can-i-reset-my-adrf-password">How can I reset my ADRF password?</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#section-13" id="toc-section-13" class="nav-link" data-scroll-target="#section-13"><span class="header-section-number">30</span> </a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">ADRF User Guide</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>A detailed guide to help users navigate and use the <strong>Coleridge Initiative’s</strong> Administrative Data Research Facility (ADRF) effectively.</em></p>
+<em>Last Modified:</em> 03/20/2025
+<p>
+Last Updated: <span id="last-updated"></span>
+</p>
+<p><a href="obtaining-adrf-access.md">Obtaining ADRF Access</a></p>
+<section id="section" class="level1" data-number="17">
+<h1 data-number="17"><span class="header-section-number">17</span> </h1>
+<section id="table-of-contents" class="level2">
+<h2 class="anchored" data-anchor-id="table-of-contents">Table of Contents</h2>
+<ol type="1">
+<li><a href="#1-introduction">Introduction</a><br>
+</li>
+<li><a href="#2-obtaining-adrf-access">Obtaining ADRF Access</a><br>
+</li>
+<li><a href="#3-onboarding-modules-and-security-training">Onboarding Modules and Security Training</a></li>
+<li><a href="#4-how-to-access-and-use-your-project-workspace">How to Access and Use Your Project Workspace</a></li>
+<li><a href="#5-how-to-access-data">How to Access Data</a></li>
+<li><a href="#6-where-to-do-your-work">Where to Do Your Work</a></li>
+<li><a href="#7-how-to-work-collaboratively-in-the-adrf">How to Work Collaboratively in the ADRF</a></li>
+<li><a href="#8-how-to-export-output-from-the-adrf">How to Export Output from the ADRF</a></li>
+<li><a href="#9-do's-and-don'ts-for-discussing-data-hosted-in-the-adrf">Do’s and Don’ts for Discussing Data Hosted in the ADRF</a></li>
+<li><a href="#10-adding-additional-packages-in-r/python">Adding Additional Packages in R/Python</a></li>
+<li><a href="#11-redshift-querying-guide">Redshift Querying Guide</a></li>
+<li><a href="#12-accessing-adrf-dashboards">Accessing ADRF Dashboards</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ol>
+</section>
+</section>
+<section id="section-1" class="level1" data-number="18">
+<h1 data-number="18"><span class="header-section-number">18</span> </h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1 Introduction</h2>
+<p>Welcome to the <a href="https://coleridgeinitiative.org/">Coleridge Initiative’s</a> Administrative Data Research Facility, or “<strong>ADRF</strong>” user guide. This is a living document intended to show new ADRF users how to use the platform for common tasks.</p>
+<section id="about-the-coleridge-initiative" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-coleridge-initiative">About the Coleridge Initiative</h3>
+<p>The Coleridge Initiative’s mission is to improve the access, usability, and impact of data for public policy by fostering collaboration between government agencies, researchers, and other stakeholders. It aims to create a data ecosystem where government data can be more effectively used to inform evidence-based decision-making, policy development, and research.</p>
+</section>
+<section id="about-the-administrative-data-research-facility" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-administrative-data-research-facility">About the Administrative Data Research Facility</h3>
+<p>The Administrative Data Research Facility (ADRF) is a platform provided by the Coleridge Initiative that enables researchers to access and analyze administrative data from government agencies securely and efficiently. It offers a secure computing environment where researchers can work with sensitive data while ensuring privacy and confidentiality. The ADRF provides tools and infrastructure for data integration, analysis, and visualization, allowing researchers to conduct rigorous and reproducible studies using large-scale administrative datasets. By facilitating access to valuable data resources and promoting collaboration between researchers, government agencies, and other stakeholders, the ADRF supports evidence-based policymaking and advances research in fields such as public health, education, labor economics, and social policy.</p>
+</section>
+<section id="the-five-safes-security-framework" class="level3">
+<h3 class="anchored" data-anchor-id="the-five-safes-security-framework">The Five Safes Security Framework</h3>
+<p>The ADRF follows the Five Safes Framework, a data management framework commonly used in government agencies, to ensure the safe use of sensitive and confidential data assets. It considers five dimensions in making data-related safety and security decisions: Safe Projects, Safe People, Safe Settings, Safe Data, and Safe Exports.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/five-safes.png" class="img-fluid figure-img"></p>
+<figcaption>The Five Safes Security Framework</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Safe Projects</strong> - The ADRF contains only agency approved projects that have been proposed and agreed upon by project and dataset stewards. Only approved projects are housed within ADRF, only approved individuals are granted access to a given project, and project environments are kept separated from each other. These approved projects require signed agreements and only approved users can access the project workspaces within the platform.</li>
+<li><strong>Safe People</strong> - Only approved researchers are permitted to access project workspaces and related resources. Each individual with approved access must complete security training, agree to the ADRF terms of use, and sign relevant data use agreements. Individuals must authenticate to gain access to the remote platform and all ADRF activity is monitored.</li>
+<li><strong>Safe Settings</strong> - The ADRF is designed to provide secure methods of data transfer for agency micro-data, specifically data that includes Personally Identifiable Information. Only agency identified and authorized personnel are invited to perform data transfers.</li>
+<li><strong>Safe Data</strong> - Before transmission to ADRF, all data with personally identifiable or other sensitive information is hashed, and an online data stewardship application provides data stewards with information on who is accessing their data, how it is being accessed, what projects employ it, the characteristics of each data asset, and the status of user agreements.</li>
+<li><strong>Safe Exports</strong> - Users are prevented from unauthorized removal of any information within the secure environment.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="section-2" class="level1" data-number="19">
+<h1 data-number="19"><span class="header-section-number">19</span> </h1>
+<section id="obtaining-adrf-access" class="level2">
+<h2 class="anchored" data-anchor-id="obtaining-adrf-access">2 Obtaining ADRF Access</h2>
+<section id="topics" class="level3">
+<h3 class="anchored" data-anchor-id="topics">Topics</h3>
+<ul>
+<li><a href="#account-setup">Account Setup</a></li>
+<li><a href="#obtaining-adrf-access">Obtaining ADRF Access</a></li>
+<li><a href="#account-registration-and-onboarding-tasks">Account Registration and Onboarding</a></li>
+<li><a href="#more-information">More Information</a></li>
+</ul>
+</section>
+<section id="account-setup" class="level3">
+<h3 class="anchored" data-anchor-id="account-setup">Account Setup</h3>
+<ul>
+<li><strong>Agency-affiliated researcher</strong>. If you are an agency-affiliated researcher, your agency will set up an ADRF account for you.</li>
+<li><strong>Individual part of a training program</strong>. If you are part of a <a href="https://coleridgeinitiative.org/applied-data-analytics-training-programs">training program</a>, the Coleridge Initiative team will create an account for you once you have been accepted into the program.</li>
+</ul>
+</section>
+<section id="obtaining-adrf-access-1" class="level3">
+<h3 class="anchored" data-anchor-id="obtaining-adrf-access-1">Obtaining ADRF Access</h3>
+<ul>
+<li><strong>Agency-affiliated researcher</strong>. If you are an agency-affiliated researcher using an agency-sponsored account, you will be granted ADRF access once you complete your onboarding tasks and required data access agreements. If you are a self-paying agency-affiliated researcher, your ADRF access is conditional on receipt of payment. If your institution of Office of Sponsored Programs will be submitting payment on your behalf, please be aware of potential access delays. Whenever possible, the Coleridge Initiative advises paying with a personal credit card or institutional payment card and using the generated invoice to request reimbursement.</li>
+<li><strong>Individual part of a training program</strong>. If you are part of a training program, you will be granted ADRF access once you complete your onboarding tasks and required data access agreements.</li>
+</ul>
+</section>
+<section id="account-registration-and-onboarding-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="account-registration-and-onboarding-tasks">Account Registration and Onboarding Tasks</h3>
+<ul>
+<li>You will receive an email invitation to activate your account. The email will come from <a href="http://okta.com">http://okta.com</a>, so please make sure that it doesn’t get caught in your email spam filter. Follow the steps outlined in the email to set up your password and your multi-factor authentication preferences. Clink on the link below to watch a video walking through the steps.</li>
+<li>After activating your account, you will be logged in to the ADRF Applications page. Proceed to the <strong>Management Portal</strong> by clicking on the icon.</li>
+<li>In the <strong>Management Portal</strong>, you will notice a “Onboarding Tasks” section within “Admin Tasks” with a number of items you will need to complete before you can gain access to the project space. Refer to the next section for details about the onboarding process.</li>
+</ul>
+</section>
+<section id="more-information" class="level3">
+<h3 class="anchored" data-anchor-id="more-information">More Information</h3>
+<p>If you have any questions, please contact <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a>.</p>
+</section>
+</section>
+</section>
+<section id="section-3" class="level1" data-number="20">
+<h1 data-number="20"><span class="header-section-number">20</span> </h1>
+<section id="onboarding-modules-and-security-training" class="level2">
+<h2 class="anchored" data-anchor-id="onboarding-modules-and-security-training">3 Onboarding Modules and Security Training</h2>
+<section id="topics-1" class="level3">
+<h3 class="anchored" data-anchor-id="topics-1">Topics</h3>
+<ul>
+<li><a href="#management-portal">Management Portal</a></li>
+<li><a href="#signing-the-adrf-terms-of-use-agreement">Signing the ADRF Terms of Use Agreement</a></li>
+<li><a href="#watching-the-security-training-video">Watching the Security Training Video</a></li>
+<li><a href="#complete-the-security-training-quiz">Complete the Security Training Quiz</a></li>
+</ul>
+</section>
+<section id="management-portal" class="level3">
+<h3 class="anchored" data-anchor-id="management-portal">Management Portal</h3>
+<p>The Management Portal web-based application is positioned primarily as the management and monitoring console for project and data stewards. It provides detailed insight on project configurations, user activity, user onboarding status, and overall cost of a project on the ADRF. We focus on four primary pillars of information a Project/Data Steward most often focuses on: - <strong>People</strong> – Who are the members of projects, how often do they use the ADRF, what exports have they requested and their status, estimated cost per person/project for current month and for the project since inception, and detailed usage metrics. - <strong>Projects</strong> – Details of project start/end dates, abstract description, number of members onboarded and pending, and resources the project has access to (i.e.&nbsp;datasets, etc). - <strong>Datasets</strong> – Description of the dataset, location on the ADRF (database or file system), size, name of the data steward(s), and the link to Enterprise Data Catalog (Informatica) describing the dataset and metadata. - <strong>Agreements</strong> – What agreements are related to these projects, indication of each member’s signing status, members pending signature, and term (dates) covered by the agreement(s).</p>
+<p>As mentioned, the Management Portal application will track your ADRF usage. The protal will also consolidate your ADRF Terms of Use, Security Training Quiz, and Security Training Video into one place. In order to complete ADRF onboarding, all three of the mentioned tasks are to be completed by the user (researcher). To access the Management Portal, log in using your credentials at https://adrf.okta.com and click on the ADRF Management Portal icon:</p>
+<p align="center">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/mp_icon.png" alt="ADRF Management Portal Icon">
+</p>
+Once inside the Management Portal, you have access to your personal workspace sessions statistics along with admin tasks such as the three onboarding tasks and password management. See the example below:
+<p align="center">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/mp_home.png" alt="Management Portal Insights Page">
+</p>
+</section>
+<section id="accessing-the-onboarding-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="accessing-the-onboarding-tasks">Accessing the Onboarding Tasks</h3>
+<p>To gain access to your ADRF project workspace, you must first complete 3 required ADRF onboarding tasks: 1. <strong>Signing the ADRF Terms of Use agreement</strong>. Users must comply with the Terms of Use when working in the ADRF. The Agreement covers rules of behavior within ADRF and guidelines for discussing ADRF content prior to passing disclosure review. It asks users to agree to a series of principles governing dataset use, behavior, and data export procedures, and to acknowledge the consequences of violating the Terms. 2. <strong>Completing security awareness training</strong>. Users will get access to a security awareness video and should confirm that they have reviewed the video. The video covers security content that is then assessed during the security awareness quiz. 3. <strong>Passing the security awareness quiz</strong>. The security awareness quiz consists of a set of 6 questions. Users must achieve a score 5 out of 6 to pass the quiz. Unsuccessful users can retake the quiz to achieve a passing score.</p>
+<p>Follow the steps below to access the <strong>ADRF Onboarding Tasks</strong>: 1. Log in to the Management Portal</p>
+<ol start="2" type="1">
+<li>Click on <strong>“Admin Tasks”</strong> in the left navigation menu.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/admin_tasks.png" alt="Click on 'Admin Tasks' in the left navigation menu">
+</p>
+<ol start="3" type="1">
+<li>Click on <strong>“Complete Onboarding”</strong>.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/complete_ob.png" alt="Click on 'Complete Onboarding'">
+</p>
+<ol start="4" type="1">
+<li>This will load the <strong>Onboarding Tasks window</strong>.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/ob_tasks_window.png" alt="Onboarding Tasks window">
+</p>
+<ol start="5" type="1">
+<li>Click on each individual task to complete it.</li>
+</ol>
+</section>
+<section id="signing-the-adrf-terms-of-use-agreement" class="level3">
+<h3 class="anchored" data-anchor-id="signing-the-adrf-terms-of-use-agreement">Signing the ADRF Terms of Use Agreement</h3>
+<p>The Terms of Use need to be completed before you are given access to the data and project space inside the ADRF. To complete ADRF Terms of Use, complete the following steps:</p>
+<ol type="1">
+<li>Click on the <strong>“Terms of Use”</strong> tile.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/terms_of_use_tile.png" alt="Terms of Use Tile">
+</p>
+<ol start="3" type="1">
+<li>Click on <strong>“Sign with DocuSign”</strong></li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/sign_docuSign.png" alt="Sign with DocuSign">
+</p>
+<ol start="4" type="1">
+<li>You will then be redirected to the DocuSign signing page. <strong>Click “Continue”</strong> on the upper right corner.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/docusign_continue.png" alt="Click Continue">
+</p>
+<ol start="5" type="1">
+<li>Click <strong>“Start”</strong> to begin.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/start.png" alt="Click Start to begin">
+</p>
+<ol start="6" type="1">
+<li>If you have already configured a signature, click on the <strong>yellow “Sign” button</strong> to apply it. Otherwise, follow the prompts to configure your electronic signature.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/sign.png" alt="Click the yellow Sign button to apply your signature">
+</p>
+<ol start="7" type="1">
+<li>Once the signature is applied, click <strong>“Finish”</strong>.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/finish.png" alt="Click Finish">
+</p>
+<p>You will then be redirected back to the management portal. And the “Terms of Use” task will be marked as completed.</p>
+</section>
+<section id="watching-the-security-training-video" class="level3">
+<h3 class="anchored" data-anchor-id="watching-the-security-training-video">Watching the Security Training Video</h3>
+<p>The Security Training Video needs to be completed as well. To complete the training, complete the following steps:</p>
+<ol type="1">
+<li>Click on the <strong>“Security Training Video”</strong> tile to load the player and then click play.</li>
+<li>Once you have watched the video in its entirety, click on the <strong>“Mark as Complete”</strong> button to complete the task. <em>Note: the “MARK AS COMPLETE” button will not be enabled until at least 5 minutes have passed since the start of the video.</em></li>
+<li>Click on the <strong>back arrow</strong> in the upper right corner to return to the main tasks panel.</li>
+<li>The training video section will now be <strong>marked as completed</strong>.</li>
+</ol>
+</section>
+<section id="complete-the-security-training-quiz" class="level3">
+<h3 class="anchored" data-anchor-id="complete-the-security-training-quiz">Complete the Security Training Quiz</h3>
+<p>The Security Training Quiz needs to be completed after the Security Training Video. To complete the training, complete the following steps:</p>
+<ol type="1">
+<li>Click on the <strong>“Security Quiz”</strong> tile to load the quiz.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/st_quiz_tile.png" alt="Click on the Security Quiz tile">
+</p>
+<ol start="2" type="1">
+<li>Answer the questions and click on the <strong>“SUBMIT RESPONSE”</strong> button. You must answer at least four of the questions correctly to complete this task.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/submit_response.png" alt="Click on the Submit Response button">
+</p>
+<ol start="3" type="1">
+<li>You will be automatically redirected to the main task panel once the questionnaire has been successfully completed. And the <strong>“Security Quiz”</strong> will be marked as completed.
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/security_quiz_complete.png" alt="Security Quiz Complete">
+</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="section-4" class="level1" data-number="21">
+<h1 data-number="21"><span class="header-section-number">21</span> </h1>
+<section id="how-to-access-and-use-your-project-workspace" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-access-and-use-your-project-workspace">4 How to Access and Use Your Project Workspace</h2>
+</section>
+<section id="topics-2" class="level2">
+<h2 class="anchored" data-anchor-id="topics-2">### Topics</h2>
+<p>A <strong>project workspace</strong> is a secure, isolated virtual environment in the ADRF within which an approved set of users can access a defined number of agency datasets. The project workspace is designed to allow approved researchers to access, analyze, and manipulate specific datasets relevant to their approved projects while maintaining strict data confidentiality and integrity.</p>
+<p>Project workspace in the ADRF are isolated from each other. Even if a person is granted access to two project workspaces, the user can not access or copy files from one into the other. This is important because the two project workspaces might have access to different datasets.</p>
+<section id="logging-into-and-logging-out-of-the-adrf" class="level3">
+<h3 class="anchored" data-anchor-id="logging-into-and-logging-out-of-the-adrf">Logging into and Logging out of the ADRF</h3>
+<p>This video linked below runs through the necessary steps for logging into and logging out of the ADRF.</p>
+<p>To watch the video, <strong>right-click the image below</strong> and choose <strong>“Open link in new tab”</strong> (by right-cicking, you will avoid leaving this page).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/watch?v=_-AE_iOyF9w"><img src="https://img.youtube.com/vi/_-AE_iOyF9w/0.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>Logging into ADRF</figcaption>
+</figure>
+</div>
+</section>
+<section id="virtual-desktop-environment" class="level3">
+<h3 class="anchored" data-anchor-id="virtual-desktop-environment">Virtual Desktop Environment</h3>
+<section id="what-is-a-vde" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-a-vde">What is a VDE?</h4>
+<p>A <strong>virtual desktop environment (VDE)</strong> allows you to interact with a remote system as if it were your own personal computer. The majority of your standard desktop functions are available, but the programs, data, and permissions are all controlled by the remote administrator (Coleridge Initiative). Thus, you will be working in a familiar environment while accessing protected data, programs, and systems that would otherwise be difficult to distribute. The ADRF uses a standard Windows environment (Windows Server) and provides a variety of software packages to conduct your analysis. For more on Windows capabilities, see the section on Windows Settings.</p>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use1.png" alt="Virtual Desktop Environment">
+</p>
+</section>
+<section id="temporary-nature-of-the-environment" class="level4">
+<h4 class="anchored" data-anchor-id="temporary-nature-of-the-environment">Temporary Nature of the Environment</h4>
+<p>While the environment is similar to that on your home computer (for Windows users), there are a handful of key differences. The first is that the environment is temporary in nature. This means that if you are not using it for a prolonged period of time (default is four hours but can vary by project), running programs will stop running and the information stored in temporary locations will be deleted. You will receive on on-screen message before any sessions are terminated. For more on safe, non-temporary storage locations in the ADRF, see the section on Storing Analytic Results.</p>
+<p>Given the temporary nature of the ADRF, it is crucial to make sure that your work is saved—and saved in an appropriate location. Once this is complete and you are finished working, make sure that you log out of the ADRF instead of closing the window. To do this, click the rightmost icon on the top taskbar to open up the dropdown menu and select End Session. You will be prompted to double-check that your work is saved prior to ending your session and confirm that you want to end your session.</p>
+</section>
+<section id="modifying-the-environment" class="level4">
+<h4 class="anchored" data-anchor-id="modifying-the-environment">Modifying the Environment</h4>
+<section id="establishing-personal-folders" class="level5">
+<h5 class="anchored" data-anchor-id="establishing-personal-folders">Establishing Personal Folders</h5>
+<p>Establishing your own personal folders is one of the simplest, yet most important, steps to take when setting up your environment. As we note in the section on Storing Analytic Results, the two possible places to store your analytic results or files are in either the U: drive or the P: drive.</p>
+<p>You will find your personal folder in the U: drive. The folder name will include your Firstname and Lastname, and may additionally include your project workspace number. This is a personal workspace that only you can access in the ADRF.</p>
+</section>
+<section id="the-u-drive-and-the-p-drive" class="level5">
+<h5 class="anchored" data-anchor-id="the-u-drive-and-the-p-drive">The U: Drive and the P: Drive</h5>
+<p>The U: drive is your user drive; it’s where you will store any files you are working on. Only the user will have access to the U: drive. For example, if user A wants to share information with user B who is on the same project, user A will need to save files to a P: drive folder and not folders in their U: drive since user B will not be able to access user A’s U: drive.</p>
+<p>The P: drive is the project drive, which will be used to house project-specific folders. Thus, you and other collaborators on the same project will be able to save files to project drive folders.</p>
+<p>Both the U: drive and P: drive have defined resource limitations of 150GB. When the workspace exceeds these limits, users will not be able to create new files or save data. The ADRF will not alert users when they approach on 150GB used. Users can check their current usage by right clicking on the user folder and clicking on properties.</p>
+</section>
+<section id="other-modifications" class="level5">
+<h5 class="anchored" data-anchor-id="other-modifications">Other Modifications</h5>
+The top taskbar contains shortcuts to the command prompt, multiple desktop windows, a temporary folder, settings, full-screen view, and toggling multiple monitors.
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use2.png" alt="Taskbar">
+</p>
+</section>
+</section>
+<section id="windows-settings" class="level4">
+<h4 class="anchored" data-anchor-id="windows-settings">Windows Settings</h4>
+Your desktop will look familiar if you are a Windows user. You will have icons for quick access to programs or browsers on your desktop. The windows icon on the bottom left side of the screen will open up a menu of programs, folders, and other tools, much as you would see on your own desktop. You will have access to PowerShell and several customization settings (e.g., remove bottom taskbar).
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use3.png" alt="Desktop">
+</p>
+</section>
+</section>
+<section id="software-in-the-adrf" class="level3">
+<h3 class="anchored" data-anchor-id="software-in-the-adrf">Software in the ADRF</h3>
+<section id="jupyterlab" class="level4">
+<h4 class="anchored" data-anchor-id="jupyterlab">JupyterLab</h4>
+<p><strong>JupyterLab</strong> provides flexible building blocks for interactive, exploratory computing. While JupyterLab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. For more on JupyterLab, see the interface documentation.</p>
+The JupyterLab interface on the ADRF consists of a main work area containing tabs of documents and activities, a collapsible left sidebar, and a menu bar. The left sidebar contains a file browser, the list of running terminals and kernels, the table of contents, and the extension manager.
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use4.png" alt="JupyterLab">
+</p>
+<p>When using Jupyter Notebooks, make sure that all your work is saved to your U: drive and the correct director within the U: drive. You can “nd the active directory by reading the path displayed in the file browser. By default, JupyterLab opens with your U: drive as the base directory. Below, the folder icon in the white box is my user folder (not displayed, but titled <code>Firstname.Lastname</code>; you will have already set up your folder) and subfolder WDQI.</p>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use5.png" alt="Make sure your work is saved to your U: drive">
+</p>
+<section id="notebooks" class="level5">
+<h5 class="anchored" data-anchor-id="notebooks">Notebooks</h5>
+<p>Jupyter Notebooks are documents that combine live runnable code with narrative text (Markdown), equations (LaTeX), images, interactive visualizations, and other rich output. You can create a notebook by clicking the blue + button in the file browser and then selecting a kernel (R, Python3, Stata) in the Launcher tab. For more information on getting started with Jupyter Notebooks, see JupyterLab Notebook documentation.</p>
+</section>
+<section id="accessing-stored-data-from-a-notebook" class="level5">
+<h5 class="anchored" data-anchor-id="accessing-stored-data-from-a-notebook">Accessing Stored Data from a Notebook</h5>
+<p>A common question is how to access stored data while writing to and using a Jupyter Notebook. Data in the ADRF are stored in a database using Microsoft SQL Server. For more information on how to access stored data in the ADRF based on choice of program (Python, R, Stata), see the section on Accessing Your Data.</p>
+</section>
+</section>
+<section id="python-3" class="level4">
+<h4 class="anchored" data-anchor-id="python-3">Python 3</h4>
+<p>Python is a general-purpose programming language. You can access Python in a multitude of ways:</p>
+<ol type="1">
+<li><strong>Through JupyterLab</strong>. This is the <strong>recommended way</strong> to access Python since it has packages installed and available, and an execution environment for testing and running code (as well as a place to write and save code). Open JupyterLab and make sure your directory is set appropriately in the “le browser. Once there, in your new Launcher window, click the Python 3 icon.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use8.png" alt="JupyterLab">
+</p>
+<ol start="2" type="1">
+<li><strong>Through the start menu (windows icon)</strong>. Type in Python. A desktop app called Python 3.7 (64-bit) will populate a window where you can begin programming.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use6.png" alt="Start menu">
+</p>
+<ol start="3" type="1">
+<li><strong>Through the command prompt in the top taskbar</strong>. Once the command prompt window is open, type in python.</li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use7.png" alt="Command Prompt">
+</p>
+<ol start="4" type="1">
+<li><strong>Through Pycharm</strong></li>
+</ol>
+<p align="left">
+<img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use9.png" alt="Pycharm">
+</p>
+</section>
+<section id="r" class="level4">
+<h4 class="anchored" data-anchor-id="r">R</h4>
+<p><strong>R</strong> is a general-purpose programming language. You may access R in one of three ways:</p>
+<ol type="1">
+<li><strong>Through RStudio</strong>. This is an integrated development environment (IDE) for R. You can run R code, display variables, debug R code, do inline visualizations, and more. Open RStudio through the desktop shortcut, or type RStudio in the start menu.</li>
+<li></li>
+<li><strong>Through JupyterLab</strong>. Open JupyterLab and make sure your directory is set appropriately in the file browser. Once there, in your new Launcher window, click the R icon.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/use10.png" class="img-fluid figure-img"></p>
+<figcaption>Using R in JuypterLab</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><strong>Through the R GUI (graphical user interface)</strong>. Type R in the search bar and click to open the RGui.</li>
+</ol>
+</section>
+<section id="stata" class="level4">
+<h4 class="anchored" data-anchor-id="stata">Stata</h4>
+<p><strong>Stata</strong> is a general-purpose statistical so#ware package. Stata can be accessed through the desktop shortcut StataMP 16 or by searching for it using the search or menu bar, or through JupyterLab.</p>
+</section>
+<section id="dbeaver" class="level4">
+<h4 class="anchored" data-anchor-id="dbeaver">DBeaver</h4>
+<p><strong>DBeaver</strong> is a universal tool for querying, editing, and managing data stored in Redshift databases. The ADRF stores data using AWS Redshift Server. DBeaver can be accessed through the desktop shortcut DBeaver or by looking it up using the search bar.</p>
+<p>Once open, you will need to connect to a Redshift server. Please follow the directions in the <a href="#11-redshift-querying-guide">Redshift Querying Guide</a> to connect to the appropriate server.</p>
+</section>
+</section>
+</section>
+<section id="how-to-access-data" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-access-data">5 How to Access Data</h2>
+<p>This section provides information on how to locate the secure data you’ve been approved to access in the ADRF.</p>
+<p>The ADRF offers both unstructured and structured data storage. Data stored in databases are located in the ADRF’s structured data storage. Other forms of data, such as flat files, CSVs, documentation, etc. are stored in the ADRF’s unstructured data storage. - <a href="#accessing-data-stored-in-unstructured-data-storage">Accessing data stored in unstructured data storage</a> - <a href="#accessing-data-stored-in-structured-data-storage">Accessing data stored in structured data storage</a></p>
+<p><strong>External Data and Code</strong>: Please note that importing of external data and code is restricted to only Coleridge staff. Given the secure and protected environment provided by the ADRF, all code, data, and packages that are coming from outside of the ADRF must be carefully vetted to prevent leaks, disclosure, or unauthorized access. This means that there is no direct method for uploading data or code from your system to the ADRF. Please contact support@coleridgeinitiative.org for any questions or assistance on importing your own code, data, or packages.</p>
+<section id="accessing-data-stored-in-unstructured-data-storage" class="level3">
+<h3 class="anchored" data-anchor-id="accessing-data-stored-in-unstructured-data-storage">Accessing data stored in unstructured data storage</h3>
+<p>Unstructured data, such as CSVs, Stata DTAs, SAS data, are stored in the “G” drive. Project teams will have read-only access to the data folders in this drive that they have been approved to access.</p>
+<p>The G: Drive is located in the ADRF’s file system. You can find it by going to the Folder icon in the Windows Task Bar. <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/acc1.png" class="img-fluid" alt="Locating the G: Drive"></p>
+</section>
+<section id="accessing-data-stored-in-structured-data-storage" class="level3">
+<h3 class="anchored" data-anchor-id="accessing-data-stored-in-structured-data-storage">Accessing data stored in structured data storage</h3>
+<p>Structured data, or data that are stored in relational databases, are stored in AWS Redshift, an MPP platform that is built on SQL and is specifically designed to handle larger data assets. Users access structured data either through <strong>DBeaver</strong> – the ADRF’s Database Access tool – or by porting directly to Redshift through their preferred <strong>statistical package</strong> (like R, or Python).</p>
+<p>For detailed instructions on how to access data in structed data storage, please see the ADRF’s <a href="#11-redshift-querying-guide">Redshift Querying Guide</a></p>
+</section>
+</section>
+</section>
+<section id="section-5" class="level1" data-number="22">
+<h1 data-number="22"><span class="header-section-number">22</span> </h1>
+<section id="where-to-do-your-work" class="level2">
+<h2 class="anchored" data-anchor-id="where-to-do-your-work">6 Where to Do Your Work</h2>
+<p>The sensitive data that you have been approved to access will either be stored in the ADRF’s structured or unstructured stroage locations (see How to Access Data](#5-how-to-access-data)).</p>
+<section id="eligible-locations-to-do-your-work" class="level3">
+<h3 class="anchored" data-anchor-id="eligible-locations-to-do-your-work">Eligible locations to do your work</h3>
+<p>You can perform your approved project work in one of the following locations in the ADRF: - <a href="#user-drive">User Drive</a> - <a href="#project-drive">Project Drive</a> - <a href="#pr-schema">PR schema</a></p>
+<section id="user-drive" class="level4">
+<h4 class="anchored" data-anchor-id="user-drive">User Drive</h4>
+<p>The U: drive is your user drive; it’s where you will store any files you are working on. Only the user will have access to the U: drive. For example, if user A wants to share information with user B who is on the same project, user A will need to save files to a P: drive folder and not folders in their U: drive since user B will not be able to access user A’s U: drive.</p>
+</section>
+<section id="project-drive" class="level4">
+<h4 class="anchored" data-anchor-id="project-drive">Project Drive</h4>
+<p>The P: drive also allows permanent storage. This drive is accessible by anyone on the same project, but not across projects. This is the only drive outside of the user drive where saved files will not be erased after logging out of the ADRF.</p>
+</section>
+<section id="pr-schema" class="level4">
+<h4 class="anchored" data-anchor-id="pr-schema">PR Schema</h4>
+<p>Each project will have a project-specific database created. All members of the project will have read and write permissions for data and may also create their own objects (tables, etc.). The project databases are prefixed with pr-.</p>
+</section>
+</section>
+<section id="ineligible-locations-to-do-your-work" class="level3">
+<h3 class="anchored" data-anchor-id="ineligible-locations-to-do-your-work">Ineligible locations to do your work</h3>
+<p>The G: drive (data), the L: drive (Libs), and the desktop are not eligible for long-term file storing. You won’t have permissions to write to either the G: drive or the L: drive. The desktop will function only as temporary storage—as soon as a user is logged out of the ADRF, your desktop will be cleared. Additionally, since Wi-Fi connectivity can be imperfect, desktop storage for any amount of time is not recommended.</p>
+</section>
+<section id="storage-size-restrictions-and-best-practices" class="level3">
+<h3 class="anchored" data-anchor-id="storage-size-restrictions-and-best-practices">Storage Size Restrictions and Best Practices</h3>
+<p><strong>Storage size</strong> varies by project, but is capped at a predetermined amount. Additional storage costs may vary depending on the resource requirements.</p>
+<p><strong>Best Practices</strong>: - To save storage space, <strong>avoid saving copies of raw data tables</strong>. Instead, write code to <strong>access data</strong>. For detailed instructions on how to access data in structed data storage, please see the ADRF’s <a href="#11-redshift-querying-guide">Redshift Querying Guide</a> - Organize folders in a way that makes sense for your particular project. For example, you might have folders for a particular analysis or sub-projects. Dates on file names can be helpful for version control. - Keep tabs on how much storage you are using compared to the allocated amount of storage.</p>
+</section>
+</section>
+</section>
+<section id="section-6" class="level1" data-number="23">
+<h1 data-number="23"><span class="header-section-number">23</span> </h1>
+<section id="how-to-work-collaboratively-in-the-adrf" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-work-collaboratively-in-the-adrf">7 How to Work Collaboratively in the ADRF</h2>
+<section id="shared-folders" class="level3">
+<h3 class="anchored" data-anchor-id="shared-folders">Shared Folders</h3>
+<p>Shared folders within a project are a great way to share information with other members on a team project. Remember that when working with teams you may not share the ADRF screen (even project folders) with other members on video platforms or otherwise, whether or not your team members are working on the same project.</p>
+</section>
+<section id="sharing-restrictions" class="level3">
+<h3 class="anchored" data-anchor-id="sharing-restrictions">Sharing Restrictions</h3>
+<p>Again, remember that when working with teams you may not share the ADRF screen with other members on video platforms or otherwise, whether or not your team members are working on the same project.</p>
+<p>The information contained in the ADRF is restricted to reside only in the ADRF for all purposes unless it passes Export Review. This means that it cannot be shared or potentially shared with any unauthorized parties. Do not write down any numbers or figures or tables corresponding to data in the ADRF. Copying and pasting is restricted, but manually circumventing this is also not permitted by your data agreements.</p>
+</section>
+</section>
+</section>
+<section id="section-7" class="level1" data-number="24">
+<h1 data-number="24"><span class="header-section-number">24</span> </h1>
+<section id="how-to-export-output-from-the-adrf" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-export-output-from-the-adrf">8 How to Export Output from the ADRF</h2>
+<p>To provide ADRF users with the ability to draw from sensitive data, results that are exported from the ADRF must meet rigorous standards meant to protect privacy and confidentiality. To ensure that those standards are met, the ADRF Export Review team reviews each request to ensure that it follows formal guidelines that are set by the respective agency providing the data in partnership with the Coleridge Initiative. Prior to moving data into the ADRF from the agency, the Export Review team suggests default guidelines to implement, based on standard statistical approaches in the U.S. government <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>,<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> as well as international standards <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, and <a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. The Data Steward from the agency supplying the data works with the team to amend these default rules in line with the agency’s requirements. If you are unsure about the review guidelines for the data you are using in the ADRF or if you have any questions relating to exports, please reach out to <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a> before submitting an export request.</p>
+<p>To learn more about limiting disclosure more generally, please refer to the <a href="https://textbook.coleridgeinitiative.org">Big Data and Social Science textbook</a> or right-click <a href="https://www.youtube.com/playlist?list=PLCtgqmGgzkEzwdPYKfrNHtOKFu3P5ErrU">here to view Coleridge’s Privacy and Confidentiality video series</a>.</p>
+<p>Note: The Export Requester cannot be assigned as a reviewer of the same export.</p>
+<section id="general-best-practices-for-a-successful-export" class="level3">
+<h3 class="anchored" data-anchor-id="general-best-practices-for-a-successful-export">General Best Practices for a Successful Export</h3>
+<p><strong>Note</strong>: Currently, the review process is highly manual: Reviewers will read your code and view your output files, which may be time-consuming.</p>
+<ol type="1">
+<li>Each additional release adds disclosure risk and therefore limits subsequent releases; we ask that users limit the number of files they request to export to just the outputs necessary to produce a particular report or paper. If you are requesting an export of more than 10 files, there may be an additional charge.</li>
+<li>The reviewers may ask you to make changes to your code or output to meet the requirements of guidelines that have been given by the providers of the data in the ADRF. Thus, we strongly encourage you to produce all output files—tables with rounded numbers, graphs with titles, and so forth—through code, rather than manually.</li>
+<li>We ask that you only request review of final versions of output files, rather than in-progress versions. Any file containing intermediate output will be rejected.</li>
+<li>Every code file should have a header describing the contents of the file, including a summary of the data manipulation that takes place in the file (e.g., regression, table or figure creation, etc.).</li>
+<li>Documenting code by using comments throughout is helpful for disclosure reviews. The better the documentation, the faster the turnaround of export requests. If data files are aggregated, please provide documentation on the level of aggregation and for where in the code the aggregation takes place.</li>
+<li>To help reviewers, who may not have seen your code before, we ask that users create meaningful variable names. For instance, if you are calculating outflows, it is better to name the variable “outflows” than to name it “var1.”</li>
+</ol>
+</section>
+<section id="timelines-for-export-process" class="level3">
+<h3 class="anchored" data-anchor-id="timelines-for-export-process">Timelines for Export Process</h3>
+<ol type="1">
+<li>Coleridge reviewers have five business days to complete an export from the day you submit an export request. However, timelines may differ depending on your agency, so please refer to your specific agency’s guidelines.</li>
+<li>The review process can be delayed if the reviewer needs additional information or if the reviewer needs you to make changes to your code or output to meet the ADRF nondisclosure requirements.</li>
+</ol>
+</section>
+<section id="export-review-process" class="level3">
+<h3 class="anchored" data-anchor-id="export-review-process">Export Review Process</h3>
+<p>The ADRF Export Review process typically involves two main stages:</p>
+<ol type="1">
+<li><strong>Primary Review</strong>: This is an initial, cursory review of your documentation and exports to ensure they do not include micro-data. A primary review can take <strong>up to 5 business days</strong>, so please plan accordingly when submitting your materials. In cases where the reviewer has questions or requires additional information, the primary review <strong>may extend beyond 5 business days</strong>.</li>
+<li><strong>Secondary Review</strong>: This is a comprehensive review conducted by an approved Data Steward who has content knowledge for the data permissioned to your workspace. If your submission pertains to <strong>multiple data assets</strong>, it will require approval by each Data Steward before the material can be exported from the ADRF. Please plan accordingly.</li>
+</ol>
+</section>
+<section id="how-to-check-your-export-review-status" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-check-your-export-review-status">How to Check Your Export Review Status:</h3>
+<p>If you’ve submitted an export request, you can easily check the status of your submission by following these steps:</p>
+<ol type="1">
+<li>Log into the ADRF.</li>
+<li>Open the ADRF Export module.</li>
+</ol>
+<section id="review-status-descriptions" class="level4">
+<h4 class="anchored" data-anchor-id="review-status-descriptions">Review status descriptions</h4>
+<p>To help you better understand the different stages of the Export Review process, here are the status descriptions you may encounter: 1. <strong>Awaiting Reviewer</strong>: Your export is currently under primary review. If any issues arise during the primary review, your reviewer will notify you. Upon completion of the primary review, the secondary reviewer(s) will be notified. 2. <strong>Awaiting Secondary Review</strong>: Your export is currently under secondary review. If your submission pertains to multiple data assets, it will require a review by each Data Steward before being approved.</p>
+</section>
+</section>
+<section id="preparing-data-for-export" class="level3">
+<h3 class="anchored" data-anchor-id="preparing-data-for-export">Preparing Data for Export</h3>
+<p>Each agency has specific disclosure review guidelines, especially with respect to the minimum allowable cell sizes for tables. Refer to these guidelines when preparing export requests. If you are unsure of what guidelines are in place for the dataset with which you are working in the ADRF, please reach out to <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a></p>
+<section id="tables" class="level4">
+<h4 class="anchored" data-anchor-id="tables">Tables</h4>
+<ul>
+<li><strong>Cell Sizes</strong>:
+<ul>
+<li>For individual-level data, please report the number of observations from each cell. For individual-level data, the default rule is to suppress cells with fewer than 10 observations, unless otherwise directed by the guidelines of the agency that provided the data.</li>
+<li>If your table includes row or column totals or is dependent on a preceding or subsequent table, reviewers will need to take into account complementary disclosure risks—that is, whether the tables’ totals, or the separate tables when read together, might disclose information about individuals in the data in a way that a single, simpler table would not. Reviewers will work with you by offering guidance on implementing any necessary complementary suppression techniques.</li>
+</ul></li>
+<li><strong>Weighted Data</strong>: If weighted results are to be exported, you must report both weighted and unweighted counts.</li>
+<li><strong>Ratios</strong>: If ratios are reported, please report the number of valid cases for both the numerator and the denominator (e.g., number of men in state X and number of women in state X, in addition to the ratio of women in state X).</li>
+<li><strong>Percentiles</strong>: Do not report exact percentiles. Instead, for example, you may calculate a “fuzzy median,” by averaging the true 45th and 55th percentiles.</li>
+<li><strong>Percentages</strong>: For any reported percentages or proportions, the underlying counts of individuals contributing to the numerators and denominators must be provided for each statistic in the desired export.</li>
+<li><strong>Maxima and Minima</strong>:
+<ul>
+<li>Suppress maximum and minimum values in general.</li>
+<li>You may replace an exact maximum or minimum with a top-coded value.</li>
+</ul></li>
+</ul>
+</section>
+<section id="graphs" class="level4">
+<h4 class="anchored" data-anchor-id="graphs">Graphs</h4>
+<ul>
+<li>Graphs are representations of tables. Thus, for each graph (which may have, e.g., a jpg, pdf, png, or tif extension), provide the source data of the underlying table of the graph following the guidelines for tables above.</li>
+<li>Because graphs and other figures take the most time to review, the number of generated graphs should be as low as possible. Please consider the possibility that you could export the underlying table instead, and generate the graph in another package.</li>
+<li>If a graph is produced from aggregated data or from tables that have been disclosure-proofed following the guidelines above (e.g., bar charts of magnitudes), provide the underlying tables.</li>
+<li>If a graph is produced directly from unit-record data but aggregated in the visualization (e.g., frequency histograms), provide the underlying tables.</li>
+<li>If a graph is produced directly from unit-record data and displays unit-record values (e.g., scatterplots, plots of residuals), the graph can be released only after you ensure that individuals cannot be re-identified and that values can only be estimated with a high level of uncertainty. Further processing to meet this requirement can include, but is not restricted to, cutting off the tails of a distribution, removing outliers, jittering the actual values, and removing or modifying axis values.</li>
+<li>If a graph is produced from the results of modeling or derivation and uses the unit-record data (e.g., regression curves), the graph can be released only if the values cannot be used to find original data values.
+<ul>
+<li>Graphs of this type are generally automatically cleared.</li>
+<li>For precision/recall graphs, you will need to report the sample size used to generate your model(s).</li>
+</ul></li>
+</ul>
+</section>
+<section id="model-output" class="level4">
+<h4 class="anchored" data-anchor-id="model-output">Model Output</h4>
+<p>Output from regression or machine-learning models generally does not pose a risk of disclosing personally identifiable information, as long as the models are not based on small samples. Provide the counts for each variable that produces the model output. If categorical variables are used then provide the counts for each category.</p>
+</section>
+</section>
+<section id="submitting-an-export-request" class="level3">
+<h3 class="anchored" data-anchor-id="submitting-an-export-request">Submitting an Export Request</h3>
+<p>To request an export be reviewed, please follow the instructions below or you can watch an instructional video by <a href="https://www.youtube.com/watch?v=qXG_i0v_bDQ">right-clicking this link</a>.</p>
+<ol type="1">
+<li>Log into the ADRF (<a href="http://adrf.okta.com">http://adrf.okta.com</a>).</li>
+<li>Input your login credentials.</li>
+<li>Verify yourself with Okta (download Okta Verify on your smartphone or other device).</li>
+<li>Choose your project as seen in the photo below. For the purpose of this document, you are seeing the Coleridge Initiative Associate Access project. <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp1.png" class="img-fluid" alt="Choose your project"></li>
+<li>Select Desktop and login with the same credentials you had done previously.</li>
+<li>Upon entering the ADRF, a Google Chrome page will appear as shown in the photo below (the <strong>Getting Started</strong> page). On this page, click on the <strong>Export Request</strong> tile. Or, from the ADRF desktop, open Google Chrome and navigate to export.adrf.net. (Note: export.adrf.net is an address that will only work within the ADRF desktop). <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp2.png" class="img-fluid" alt="Go to the Export Module"></li>
+<li>Click <strong>My Requests</strong>, or the top (person-shaped) icon, at the left side of the window as shown in the screenshot below. <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp3.png" class="img-fluid" alt="Click on My Requests"></li>
+<li>Click <strong>New Item</strong> as shown below <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp4.png" class="img-fluid" alt="Click on New Item"></li>
+</ol>
+<ul>
+<li>You will be asked to select the project to which your export relates. If you do not see the correct project listed in the dropdown list, please reach out to our support team at <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a>.</li>
+</ul>
+<ol start="9" type="1">
+<li>After selecting a project, click <strong>Continue</strong>. <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp5.png" class="img-fluid" alt="Click “Continue”"></li>
+<li>Read through the entire page that loads. This page, titled “Create Export Request,” will ask for you to comment on all supporting code files to explain the commands used to generate the files in the export request. The Export Review team will reject all requests containing intermediate output. The Export Review team will typically release export requests within five business days. However, if the team has any clarifying questions, this could result in a longer review process. You need to document your output files in the text box provided. See the example below: <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp6.png" class="img-fluid" alt="Read all instructions"></li>
+<li>When you have read through and followed the page instructions, and are ready to proceed:</li>
+</ol>
+<ul>
+<li>Move the slider at the bottom of the page to <strong>indicate that you have followed the page’s guidelines</strong>.</li>
+<li>At the bottom of the page, <strong>upload each of the files that you have prepared</strong>.</li>
+<li>Click <strong>Submit Request…</strong> to create the export request. <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/exp7.png" class="img-fluid" alt="Submit Request"></li>
+</ul>
+<ol start="12" type="1">
+<li>You can click My Requests at the left side of the window to view your current and previous export requests.</li>
+</ol>
+<p><strong>Note</strong>: To learn more about exporting results, you can watch an instructional video by <a href="https://www.youtube.com/watch?v=qXG_i0v_bDQ">right-clicking this link</a>.</p>
+</section>
+</section>
+</section>
+<section id="section-8" class="level1" data-number="25">
+<h1 data-number="25"><span class="header-section-number">25</span> </h1>
+<section id="dos-and-donts-for-discussing-data-hosted-in-the-adrf" class="level2">
+<h2 class="anchored" data-anchor-id="dos-and-donts-for-discussing-data-hosted-in-the-adrf">9 Do’s and Don’ts for Discussing Data Hosted in the ADRF</h2>
+<p>You <strong>must protect the confidential data</strong> that is hosted inside the ADRF in communicating with your teammates. The general rule is that you should never take any exact number out of the ADRF. This means you should never write down or share any number by text, screenshot, or share an image even with a team-mate. The rules have become more complicated now that everything is online, because even though your teammates are “safe people”, and Zoom conversations are password protected and encrypted, we’d rather err on the side of caution when sharing information over Zoom.</p>
+<p>To ensure <strong>safe outputs</strong>, the Coleridge Initiative works with an agency’s Data Steward to develop rigorous export review requirements catered to the specific needs of the partner agency. While you should make sure to acquaint yourself with the specific export rules associated with the confidential data you have been approved to access, <strong>cheat sheet provided below</strong> summarizes some of the rules that apply to discussing data before it has been exported from the ADRF and passed the ADRF team’s disclosure review.</p>
+<p>If you are unsure about a specific situation, please ask reach out to the Coleridge Support Team at <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a>.</p>
+<section id="exact-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="exact-numbers">Exact Numbers</h3>
+<p>Do not describe a statistic in exact numbers. If you would like to communicate these values while not in person, you can have a private discussion via the projects drive inside the ADRF.</p>
+<p><strong>Example</strong>: If an average within a specific group was 5,000, you would need to convey this average on the projects drive.</p>
+</section>
+<section id="comparing-values" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-values">Comparing Values</h3>
+<p>When comparing values, you are permitted to say that one value is more than, less than, or about the same as another. However, you cannot refer to the exact difference between the two numbers.</p>
+<p>In practice, you can use pluses and minuses to convey differences between values for data that has not been exported from the ADRF.</p>
+<p><strong>Example</strong>: “The mean for Group A was roughly the same as the mean for Group B, but these values were both greater than that of Group C.”</p>
+</section>
+<section id="percentagesproportions" class="level3">
+<h3 class="anchored" data-anchor-id="percentagesproportions">Percentages/Proportions</h3>
+<p>Percentages and proportions also cannot be directly mentioned. Instead, you can refer to the percentage/proportion within 25%.</p>
+<p><strong>Example</strong>: If a proportion was 30%, you could say “The proportion is about 25%” or “The proportion is between 25% and 50%.”</p>
+</section>
+</section>
+</section>
+<section id="section-9" class="level1" data-number="26">
+<h1 data-number="26"><span class="header-section-number">26</span> </h1>
+<section id="adding-additional-packages-in-rpython" class="level2">
+<h2 class="anchored" data-anchor-id="adding-additional-packages-in-rpython">10 Adding Additional Packages in R/Python</h2>
+<p>The ADRF has an internal package repository, so users can install packages for R and Python themselves.</p>
+<p>The repositories that are currently mirrored in the ADRF are <a href="https://cran.r-project.org/">CRAN</a> for R packages and <a href="https://coleridge-initiative.github.io/adrf_onboarding_handbook/packages.html#:~:text=The%20repositories%20that%20are%20currently%20mirrored%20in%20the%20ADRF%20are%20CRAN%20for%20R%20packages%20and%20PyPi.org%20for%20Python.%20There%20is%20currently%20no%20access%20to%20packages%20hosted%20on%20Github%20or%20other%20mirrors.">PyPi.org</a> for Python. There is currently no access to packages hosted on Github or other mirrors.</p>
+<p><strong>Note</strong>: If you are working in a shared workspace for a project, each user in the project must install the packages, there is no shared package installation for projects.</p>
+<section id="add-additional-r-packages" class="level3">
+<h3 class="anchored" data-anchor-id="add-additional-r-packages">Add additional R packages</h3>
+<p>To install R packages, simply use the code below and the package will be installed from the repository. You will not have to re-install the package again, and to use the package load it with the library() function. For example:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"packagename"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>** Example**: Installing <code>tidyverse</code> <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/rinstall.png" class="img-fluid" alt="Install tidyverse"></p>
+<p>To install a specific package version you can specify:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"remotes"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_version</span>(<span class="st">"tidyverse"</span>, <span class="st">"1.3.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Note</strong>: We recommend starting R using Rstudio for best results, instead of double clicking on a R or Rmarkdown script.</p>
+</section>
+<section id="add-additional-python-packages" class="level3">
+<h3 class="anchored" data-anchor-id="add-additional-python-packages">Add additional Python packages</h3>
+<p>Similar to R packages, Python packages may be installed using the Package Installer for Python (pip).</p>
+<p><strong>Note</strong>: We recommend installing python packages from the command line. If you start Jupyter lab, and choose the Terminal tab:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/pythoninstall.png" class="img-fluid figure-img"></p>
+<figcaption>If you start Juypter Lab, choose the Terminal tab</figcaption>
+</figure>
+</div>
+<p>Then install your package using pip, for example, to install the pandas package:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/pip.png" class="img-fluid figure-img"></p>
+<figcaption>Example: pandas package installation</figcaption>
+</figure>
+</div>
+<p>Then you may use the package within your Jupyter notebook as usual.</p>
+<p>To install a <strong>specific package version</strong> type:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>pip install pandas<span class="op">==</span><span class="fl">1.2.3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+</section>
+<section id="section-10" class="level1" data-number="27">
+<h1 data-number="27"><span class="header-section-number">27</span> </h1>
+<section id="redshift-querying-guide" class="level2">
+<h2 class="anchored" data-anchor-id="redshift-querying-guide">11 Redshift Querying Guide</h2>
+<p>This document serves as an introduction to generating proficient Amazon Redshift queries. This is a generalized document meaning you will need to replace “schema_name” and “table_name” with the appropriate schema and table names used for your project.</p>
+<p><strong>Note</strong>: All data is stored under schemas in the projects database.</p>
+<section id="topics-3" class="level3">
+<h3 class="anchored" data-anchor-id="topics-3">Topics</h3>
+<ul>
+<li><a href="11-querying-guide.html#data-access">Data Access</a></li>
+<li><a href="#using-dbeaver-to-access-a-database">Using DBeaver to access a database</a>
+<ul>
+<li><a href="#creating-tables-in-a-pr-or-tr-schema-in-dbeaver">Creating tables in a PR or TR schema in Dbeaver</a></li>
+</ul></li>
+<li><a href="#connecting-to-a-database-through-a-statistical-program-using-an-odbc-connection">Connecting to a database through a statistical program using an ODBC connection</a>
+<ul>
+<li><a href="#connecting-to-a-database-using-sas">Connecting to a database using SAS</a></li>
+<li><a href="#connecting-to-a-database-using-r">Connecting to a database using R</a></li>
+<li><a href="#connecting-to-a-database-using-python">Connecting to a database using Python</a></li>
+<li><a href="#connecting-to-a-database-using-stata">Connecting to a database using Stata</a> ### Data access If you are approved to access data that are stored in a database, the data are housed in Redshift. To access those data, you will have to log in to Redshift within your workspace.</li>
+</ul></li>
+</ul>
+<p>You need to replace the “user.name.project” with your <strong>project workspace username</strong>. The <strong>project workspace username</strong> is your user folder name in the U:/ drive:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/ap1.png" class="img-fluid figure-img"></p>
+<figcaption>Image of Project-Based User Name</figcaption>
+</figure>
+</div>
+<p><strong>Note</strong>: You will need to enter your specific user name when logging into Redshift. The password needed to access Redshift is the second password entered when logging into the ADRF as shown in the screen below: <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/ap2.png" class="img-fluid" alt="Image of Password Entry"></p>
+</section>
+<section id="using-dbeaver-to-access-a-database" class="level3">
+<h3 class="anchored" data-anchor-id="using-dbeaver-to-access-a-database">Using DBeaver to access a database</h3>
+<p>To establish a connection to Redshift in DBeaver, first open DBeaver by clicking on the DBeaver icon located on the ADRF desktop and then double click on the server you wish to connect to. <strong>Note</strong>: All data is stored under schemas in the projects database.</p>
+<p>In the example below, we will connect to <strong>Redshift11_projects</strong>. After double clicking on Reshift11_projects, a window will appear asking for your <strong>Username</strong> and <strong>Password</strong>. - In Username, enter <strong>“adrf\”</strong> followed by your <strong>project workspace username</strong> - In Password, enter the password associated with your project workspace username <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/ap3.png" class="img-fluid" alt="Complete the Username and Password fields"></p>
+<p>After completing the Username and Password fields, click <strong>OK</strong>. You will now have access to your data stored on the Redshift11_projects server.</p>
+<p><strong>Note</strong>: Please make sure to enter <strong>“adrf\”</strong> before your project workspace username in the <strong>Username</strong> field. If you do not enter “adrf", or accidently include a”/” instead of a “\”, you will not be able to connect to Redshift. <strong>If you are having trouble connecting, an incorrect entry in Username is most likely the culprit.</strong></p>
+<section id="creating-tables-in-a-pr-or-tr-schema-in-dbeaver" class="level4">
+<h4 class="anchored" data-anchor-id="creating-tables-in-a-pr-or-tr-schema-in-dbeaver">Creating tables in a PR or TR schema in Dbeaver</h4>
+<p>When users create tables in their PR (Research Project) or TR (Training Project) schema, the table is initially permissioned to the user only. This is analogous to creating a document or file in your U drive: Only you have access to the newly created table.</p>
+<p>If you want to allow all individuals in your project workspace to access the table in the PR/TR schema, you will need to grant permission to the table to the rest of the users who have access to the PR or TR schema.</p>
+<p>You can do this by running the following code: <code>GRANT SELECT, UPDATE, DELETE, INSERT ON TABLE schema_name.table_name TO group db_xxxxxx_rw;</code></p>
+<p><strong>Note</strong>: Note: In the above code example replace schma_name with the pr_ or tr_ schema assigned to your workspace and replace table_name with the name of the table on which you want to grant access. Also, in the group name <code>db_xxxxxx_rw</code>, replace <code>xxxxxx</code> with your project code. This is the last 6 characters in your project based user name. This will start with either a T or a P.</p>
+<p>If you want to allow <strong>only a single user</strong> on your project to access the table, you will need to grant permission to that user. You can do this by running the following code:</p>
+<p><code>GRANT SELECT, UPDATE, DELETE, INSERT ON TABLE schema_name.table_name to "IAM:first_name.last_name.project_code";</code></p>
+<p><strong>Note</strong>: In the above code example replace schma_name with the pr_ or tr_ schema assigned to your workspace and replace table_name with the name of the table on which you want to grant access. Also, in <code>"IAM:first_name.last_name.project_code"</code> update <code>first_name.last_name.project_code</code> with the user name to whom you want to grant access to.</p>
+<p>If you have any questions, please reach out to us at <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a></p>
+</section>
+</section>
+<section id="connecting-to-a-database-through-a-statistical-program-using-an-odbc-connection" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-to-a-database-through-a-statistical-program-using-an-odbc-connection">Connecting to a database through a statistical program using an ODBC connection</h3>
+<p>When connecting to the database using an ODBC connection, you need to use one of the following DSNs:</p>
+<ul>
+<li><code>Redshift01_projects_DSN</code></li>
+<li><code>Redshift11_projects_DSN</code></li>
+</ul>
+<p>In the code examples below, the default DSN is <code>Redshift01_projects_DSN</code>.</p>
+<p><strong>Topics:</strong> - <a href="#connecting-to-a-database-using-sas">Connecting to a database using SAS</a> - <a href="#connecting-to-a-database-using-r">Connecting to a database using R</a> - <a href="#connecting-to-a-database-using-python">Connecting to a database using Python</a> - <a href="#connecting-to-a-database-using-stata">Connecting to a database using Stata</a></p>
+<section id="connecting-to-a-database-using-sas" class="level4">
+<h4 class="anchored" data-anchor-id="connecting-to-a-database-using-sas">Connecting to a database using SAS</h4>
+<p>Use the following code to connect to a databse using SAS:</p>
+<pre class="sas"><code>proc sql;
+connect to odbc as my con
+(datasrc=Redshift01_projects_DSN user=adrf\user.name.project password=password);
+select * from connection to mycon
+(select * form projects.schema.table);
+disconnect from mycon;
+quit;</code></pre>
+</section>
+<section id="connecting-to-a-database-using-r" class="level4">
+<h4 class="anchored" data-anchor-id="connecting-to-a-database-using-r">Connecting to a database using R</h4>
+<ul>
+<li><a href="#recommend-method-for-connecting-to-a-database-using-r">Recommended method for connecting to a database using R</a></li>
+<li><a href="#using-renviron-file-to-connect-to-a-database-using-r">Using Renviron file to connect to a database using R</a></li>
+<li><a href="#best-practices-for-loading-large-amounts-of-data-in-r">Best practices for loading large amounts of data in R</a></li>
+</ul>
+<section id="recommended-method-for-connecting-to-a-database-using-r" class="level5">
+<h5 class="anchored" data-anchor-id="recommended-method-for-connecting-to-a-database-using-r">Recommended method for connecting to a database using R</h5>
+<p><strong>Note</strong>: To use this method, you may need to install the packages RJDBC and rstudioapi first.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RJDBC)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create username</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>dbusr<span class="ot">=</span><span class="fu">paste</span>(<span class="st">"ADRF</span><span class="sc">\\</span><span class="st">"</span>, <span class="fu">Sys.getenv</span>(<span class="st">"USERNAME"</span>), <span class="at">sep=</span> <span class="st">''</span>)                                                                                </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Database URL</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"jdbc:redshift:iam://adrf-redshift01.cdy8ch2udktk.us-gov-west-1.redshift.amazonaws.com:5439/projects;"</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>              <span class="st">"loginToRp=urn:amazon:webservices:govcloud;"</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>              <span class="st">"ssl=true;"</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>              <span class="st">"AutoCreate=true;"</span>,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>              <span class="st">"idp_host=adfs.adrf.net;"</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>              <span class="st">"idp_port=443;"</span>,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>              <span class="st">"ssl_insecure=true;"</span>,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>              <span class="st">"plugin_name=com.amazon.redshift.plugin.AdfsCredentialsProvider"</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Redshift JDBC Driver Setting</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>driver <span class="ot">&lt;-</span> <span class="fu">JDBC</span>(<span class="st">"com.amazon.redshift.jdbc42.Driver"</span>,</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>               <span class="at">classPath =</span> <span class="st">"C:</span><span class="sc">\\</span><span class="st">drivers</span><span class="sc">\\</span><span class="st">redshift_withsdk</span><span class="sc">\\</span><span class="st">redshift-jdbc42-2.1.0.12</span><span class="sc">\\</span><span class="st">redshift-jdbc42-2.1.0.12.jar"</span>,</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>               <span class="at">identifier.quote=</span><span class="st">"`"</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>con <span class="ot">&lt;-</span> <span class="fu">dbConnect</span>(driver, url, dbusr, rstudioapi<span class="sc">::</span><span class="fu">askForPassword</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="using-renviron-file-to-connect-to-a-database-using-r" class="level5">
+<h5 class="anchored" data-anchor-id="using-renviron-file-to-connect-to-a-database-using-r">Using Renviron file to connect to a database using R</h5>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RJDBC)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>dbusr<span class="ot">=</span><span class="fu">Sys.getenv</span>(<span class="st">"DBUSER"</span>)                                                                    dbpswd<span class="ot">=</span><span class="fu">Sys.getenv</span>(<span class="st">"DBPASSWD"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Database URL</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"jdbc:redshift:iam://adrf-redshift01.cdy8ch2udktk.us-gov-west-1.redshift.amazonaws.com:5439/projects;"</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="st">"loginToRp=urn:amazon:webservices:govcloud;"</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="st">"ssl=true;"</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="st">"AutoCreate=true;"</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="st">"idp_host=adfs.adrf.net;"</span>,</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="st">"idp_port=443;"</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="st">"ssl_insecure=true;"</span>,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="st">"plugin_name=com.amazon.redshift.plugin.AdfsCredentialsProvider"</span>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Redshift JDBC Driver Setting</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>driver <span class="ot">&lt;-</span> <span class="fu">JDBC</span>(<span class="st">"com.amazon.redshift.jdbc42.Driver"</span>,</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="at">classPath =</span> <span class="st">"C:</span><span class="sc">\\</span><span class="st">drivers</span><span class="sc">\\</span><span class="st">redshift_withsdk</span><span class="sc">\\</span><span class="st">redshift-jdbc42-2.1.0.12</span><span class="sc">\\</span><span class="st">redshift-jdbc42-2.1.0.12.jar"</span>,</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="at">identifier.quote=</span><span class="st">"`"</span>)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>conn <span class="ot">&lt;-</span> <span class="fu">dbConnect</span>(driver, url, dbusr, dbpswd)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Note</strong>: For the above code to work, please create a file name .Renviron in your user folder (user folder is something like i.e.&nbsp;<code>u:\John.doe.p00002</code>) And <code>.Renviron</code> file should contain the following:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>DBUSER<span class="ot">=</span><span class="st">'adrf\John.doe.p00002'</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>DBPASSWD<span class="ot">=</span><span class="st">'xxxxxxxxxxxx'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>_<strong>PLEASE</strong> replace <code>user id</code> and <code>password</code> with your project workspace specific user id and password.</p>
+<p>This will ensure you don’t have your id and password in R code and then you can easily share your R code with others without sharing your ID and password._</p>
+</section>
+<section id="best-practices-for-loading-large-amounts-of-data-in-r" class="level5">
+<h5 class="anchored" data-anchor-id="best-practices-for-loading-large-amounts-of-data-in-r">Best practices for loading large amounts of data in R</h5>
+</section>
+<section id="sql-basics-with-r-programming" class="level5">
+<h5 class="anchored" data-anchor-id="sql-basics-with-r-programming">SQL Basics with R Programming</h5>
+<p>To ensure R can efficiently manage large amounts of data, please add the following lines of code to your R script before any packages are loaded:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">java.parameters =</span> <span class="fu">c</span>(<span class="st">"-XX:+UseConcMarkSweepGC"</span>, <span class="st">"-Xmx8192m"</span>))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">gc</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="best-practices-for-writing-tables-to-redshift" class="level5">
+<h5 class="anchored" data-anchor-id="best-practices-for-writing-tables-to-redshift">Best practices for writing tables to Redshift</h5>
+<p>When writing an R data frame to Redshift use the following code as an example:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: replace the table_name with the name of the data frame you wish to write to Redshift</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>DBI<span class="sc">::</span><span class="fu">dbWriteTable</span>(<span class="at">conn =</span> conn, <span class="co">#name of the connection </span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="at">name =</span> <span class="st">"schema_name.table_name"</span>, <span class="co">#name of table to save df to </span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="at">value =</span> df_name, <span class="co">#name of df to write to Redshift </span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="at">overwrite =</span> <span class="cn">TRUE</span>) <span class="co">#if you want to overwrite a current table, otherwise FALSE</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>qry <span class="ot">&lt;-</span> <span class="st">"GRANT SELECT ON TABLE schema.table_name TO group &lt;group_name&gt;;"</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">dbSendUpdate</span>(conn,qry)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+</section>
+<section id="connecting-to-a-database-using-python" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-to-a-database-using-python">Connecting to a database using Python</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyodbc</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>cnxn <span class="op">=</span> pyodbc.<span class="ex">connect</span>(<span class="st">'DSN=Redshift01_projects_DSN; UID=adrf</span><span class="er">\</span><span class="st">user.name.project; PWD=password'</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_sql(<span class="st">"SELECT * FROM projects.schema_name.table_name"</span>, cnxn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="connecting-to-a-database-using-stata" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-to-a-database-using-stata">Connecting to a database using Stata</h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">odbc</span> <span class="kw">load</span>, <span class="kw">exec</span>(<span class="st">"select * from PATH_TO_TABLE"</span>) <span class="kw">clear</span> dsn(<span class="st">"Redshift11_projects_DSN"</span>) user(<span class="st">"adrf\user.name.project"</span>) password(<span class="st">"password"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+</section>
+<section id="section-11" class="level1" data-number="28">
+<h1 data-number="28"><span class="header-section-number">28</span> </h1>
+<section id="accessing-adrf-dashboards" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-adrf-dashboards">12 Accessing ADRF Dashboards</h2>
+<p>Some users will be approved to access an ADRF Dashboard. This section provides step-by-step instructions for accessing ADRF Dashboards.</p>
+<p><strong>Note</strong>: If you are a first-time ADRF Users, please follow the instructions in the <a href="#3-onboarding-modules-and-security-training">Onboarding Modules and Security Training</a> to activate your ADRF account and complete your onboarding tasks.</p>
+<section id="step-1-setting-your-dashboard-access-password" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-setting-your-dashboard-access-password">Step 1: Setting your dashboard access password</h3>
+<p>Once you have completed the management portal onboarding tasks, you will next need to set your <strong>dashboard access password</strong>. This is separate from the first password you use to access the ADRF through Okta, and will instead be used to provide specific access to the dashboard. <strong>You should only need to do this the first time you access the dashboard, but you can always follow these instructions if you need to update or reset your dashboard access password in the future.</strong></p>
+<ol type="1">
+<li>In the Management Portal, again navigate to the “Admin Tasks” page by clicking the link on the sidebar navigation menu:</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_admin_tasks.png" class="img-fluid figure-img"></p>
+<figcaption>Admin Tasks</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Click on the “Reset Password” button:</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_reset_password.png" class="img-fluid figure-img"></p>
+<figcaption>Click on Reset Password</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>This will load the password reset window:</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_password_window.png" class="img-fluid figure-img"></p>
+<figcaption>This will load the password reset window</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Select the account associated with the dashboard by clicking on the checkbox on the right:</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_password_reset_project.png" class="img-fluid figure-img"></p>
+<figcaption>Select account</figcaption>
+</figure>
+</div>
+<p><strong>Important</strong>: Take note of the username associated with your dashboard (John.Doe.P00000 in this example). You will need to enter this username again in the next step. This is also the user name referenced in your onboarding email.</p>
+<ol start="5" type="1">
+<li>Enter the desired password. The chosen password must adhere to the ADRF password policy:</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_enter_password.png" class="img-fluid figure-img"></p>
+<figcaption>Enter new password</figcaption>
+</figure>
+</div>
+<ol start="6" type="1">
+<li>Click the <strong>“Reset Password”</strong> button to proceed with the update. You will receive confirmation at the bottom of the window once the password has been successfully updated:</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_successful_password.png" class="img-fluid figure-img"></p>
+<figcaption>Reset password</figcaption>
+</figure>
+</div>
+</section>
+<section id="step-2-accessing-the-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-accessing-the-dashboard">Step 2: Accessing the Dashboard</h3>
+<p>Once you have successfully reset your dashboard access password, you are ready to access the dashboard. To do so, navigate back to the main Okta portal (adrf.okta.com) and click on the tile associated with your dashboard. <strong>This tile will be unavailable until you complete the three ADRF onboarding tasks discussed in <a href="#3-onboarding-modules-and-security-training">Onboarding Modules and Security Training</a></strong>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_dashboard_tile.png" class="img-fluid figure-img"></p>
+<figcaption>Your Dashboard</figcaption>
+</figure>
+</div>
+<p>Clicking on this will bring up another window where you will be prompted to <strong>“Choose Your Application to Get Started.”</strong> Click on your <strong>Dashboard icon</strong>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_application.png" class="img-fluid figure-img"></p>
+<figcaption>Choose your application to get started</figcaption>
+</figure>
+</div>
+<p>Next, you will need to wait for your session to be prepared. Then, your session will load the secure browser window, which will then bring up the Posit Connect portal. The Posit Connect portal is used to host the Dashboard. <strong>This step may take several seconds while the browser loads and prepares the dashboard data.</strong></p>
+<p>Before accessing the dashboard, you will then be presented with one final request to log into the <strong>secure Connect environment.</strong>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_secure_connect.png" class="img-fluid figure-img"></p>
+<figcaption>Login to the Secure Connect Environment</figcaption>
+</figure>
+</div>
+<p>Here, please enter:</p>
+<ol type="1">
+<li>The username you saw in the Password Reset step above (e.g., John.Doe.P00000)</li>
+<li>Your dashboard access password that you set in Step 2.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/db_LDAP.png" class="img-fluid figure-img"></p>
+<figcaption>Enter your credentials</figcaption>
+</figure>
+</div>
+<p>Once you enter the appropriate information and click “Log In,” your dashboard should begin to load. This again may take a minute or two - if you run into any issues, please reach out to us at <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a>.</p>
+</section>
+</section>
+</section>
+<section id="section-12" class="level1" data-number="29">
+<h1 data-number="29"><span class="header-section-number">29</span> </h1>
+<section id="frequently-asked-questions-faq" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions-faq">13 Frequently Asked Questions (FAQ)</h2>
+<section id="topics-4" class="level3">
+<h3 class="anchored" data-anchor-id="topics-4">Topics</h3>
+</section>
+<section id="how-do-i-set-up-my-multifactor-authentication" class="level3">
+<h3 class="anchored" data-anchor-id="how-do-i-set-up-my-multifactor-authentication">How do I set up my Multifactor Authentication</h3>
+<p>You should be prompted to set up multifactor authentication when you create your account, the options are SMS, voice call, email and the Okta verify application.</p>
+</section>
+<section id="can-i-set-up-more-than-one-form-of-multifactor-authentication" class="level3">
+<h3 class="anchored" data-anchor-id="can-i-set-up-more-than-one-form-of-multifactor-authentication">Can I set up more than one form of Multifactor Authentication?</h3>
+<p>This is recommended. If you lose access to one form of MFA, you would still be able to gain access to your account using an alternative. To do so, please log on to https://adrf.okta.com and select your name on the top right and click settings. Here you can modify or set up your SMS, voice call, email or Okta multifactor authentication.</p>
+</section>
+<section id="how-can-i-reset-my-okta-password" class="level3">
+<h3 class="anchored" data-anchor-id="how-can-i-reset-my-okta-password">How can I reset my Okta password?</h3>
+<p>You can use the “Need help signing in?” option on the sign on page (https://adrf.okta.com) which will send a link to your email to reset your password. You may have to verify your identify by answering security questions which you set up when creating your account.</p>
+</section>
+<section id="how-can-i-reset-my-adrf-password" class="level3">
+<h3 class="anchored" data-anchor-id="how-can-i-reset-my-adrf-password">How can I reset my ADRF password?</h3>
+<p>You can reset your ADRF project password by following these steps:</p>
+<ol type="1">
+<li>Click on the ADRF Management Portal Okta Tile: <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/mp_icon.png" class="img-fluid" alt="ADRF Management Portal Icon"></li>
+<li>Then click on Admin Tasks on the left hand side of the screen: <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/admin_tasks.png" class="img-fluid" alt="Admin Tasks"></li>
+<li>Then click on RESET PASSWORD: <img src="https://coleridge-initiative.github.io/adrf_onboarding_handbook/images/reset_password.png" class="img-fluid" alt="Reset Password"></li>
+</ol>
+<p>You’ll see a screen where you can choose the project(s) for which you want to update the password.</p>
+</section>
+</section>
+</section>
+<section id="section-13" class="level1" data-number="30">
+<h1 data-number="30"><span class="header-section-number">30</span> </h1>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+
+
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Confidential Information Protection and Statistical Efficiency Act of 2002. (Washington, DC: U.S. GPO, 2002).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Federal Committee on Statistical Methodology. “Report on Statistical Disclosure Limitation Methodology,” 22 (Second Version, 2005). <a href="https://nces.ed.gov/fcsm/pdf/spwp22.pdf">https://nces.ed.gov/fcsm/pdf/spwp22.pdf</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>“How to Use Microdata Properly: Self-Study Material for the Users of Eurostat Microdata Sets.” (2018). <a href="https://ec.europa.eu/eurostat/web/microdata/overview/self-study-material-for-microdata-users">https://ec.europa.eu/eurostat/web/microdata/overview/self-study-material-for-microdata-users</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Research Data Centre of the German Federal Employment Agency at the Institute for Employment Research. “Remote Data Access and On-Site Use at the FDZ of the BA at the IAB.” (2020, December 8). <a href="http://doku.iab.de/fdz/access/Vorgaben_DAFE_EN.PDF">http://doku.iab.de/fdz/access/Vorgaben_DAFE_EN.PDF</a>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Welpton, Richard. Handbook on Statistical Disclosure Control for Outputs. (figshare, 2019). <a href="https://doi.org/10.6084/m9.figshare.9958520.v1">https://doi.org/10.6084/m9.figshare.9958520.v1</a>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./13-faq.html" class="pagination-link" aria-label="13 Frequently Asked Questions (FAQ)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">13 Frequently Asked Questions (FAQ)</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
