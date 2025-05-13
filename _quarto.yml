@@ -35,6 +35,7 @@ format:
     embed-resources: false
     toc: true
     df-print: paged
+    number-sections: false 
     number-depth: 1
     sidebar: 
       background: "#4c2a9d"
