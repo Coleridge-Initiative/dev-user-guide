@@ -22,7 +22,6 @@ book:
     - 11-querying-guide.md
     - 12-dashboards.md
     - 13-faq.md
-    - dev-document.md
   search: 
     location: sidebar
     type: textbox
