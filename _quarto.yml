@@ -1,0 +1,50 @@
+project:
+  type: book
+
+book:
+  title: "ADRF User Guide"
+  author: "Jon Mills, Josh Edelmann, and Corey Sparks"
+  date: last-modified
+  cover-image: images/coverpage.png
+  date-format: "[Last Updated on] DD MMMM, YYYY"
+  chapters:
+    - index.md
+    - 00-cover.md
+    - 01-intro.md
+    - 02-access.md
+    - 03-onboarding.md
+    - 04-access-and-use.md
+    - 05-access-data.md
+    - 06-where-to-work.md
+    - 07-collaborate.md
+    - 08-export.md
+    #- 09-dos-and-donts.md
+    - 10-packages.md
+    - 11-querying-guide.md
+    - 12-dashboards.md
+    - 13-faq.md
+    - dev-document.md
+  search: 
+    location: sidebar
+    type: textbox
+    limit: 3
+
+format:
+  html:
+    theme: journal
+    backgroundcolor: "white"
+    highlight-style: arrow
+    embed-resources: false
+    toc: true
+    df-print: paged
+    number-depth: 1
+    sidebar: 
+      background: "#4c2a9d"
+      search: true
+      logo: images/cilogowht.png
+      style: floating
+      tools: 
+        - icon: github
+          href: https://github.com/Coleridge-Initiative
+
+editor: visual
