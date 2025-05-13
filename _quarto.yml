@@ -40,8 +40,5 @@ format:
       background: "#4c2a9d"
       search: true
       style: floating
-      tools: 
-        - icon: github
-          href: https://github.com/Coleridge-Initiative
 
 editor: visual
