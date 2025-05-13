@@ -18,7 +18,7 @@ book:
     - 06-where-to-work.md
     - 07-collaborate.md
     - 08-export.md
-    #- 09-dos-and-donts.md
+    - 09-dos-and-donts.md
     - 10-packages.md
     - 11-querying-guide.md
     - 12-dashboards.md
