@@ -113,4 +113,4 @@ Once open, you will need to connect to a Redshift server. Please follow the dire
 
 #
 
-[⬅️ Previous: Onboarding Modules and Security Training](03-onboarding.md) | [Back to Home](00-cover.md) | [Next: How to Access Data ➡️](05-access-data.md)
+[⬅️ Previous: Onboarding Modules and Security Training](03-onboarding.md) | [Back to Home](index.md) | [Next: How to Access Data ➡️](05-access-data.md)

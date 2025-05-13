@@ -106,5 +106,5 @@ The Security Training Quiz needs to be completed after the Security Training Vid
 
 #
 
-[⬅️ Previous: Obtaining ADRF Access](02-access.md) | [Back to Home](00-cover.md) | [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md ))
+[⬅️ Previous: Obtaining ADRF Access](02-access.md) | [Back to Home](index.md) | [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md ))
 

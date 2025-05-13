@@ -35,4 +35,4 @@ The G: drive (data), the L: drive (Libs), and the desktop are not eligible for l
 
 #
 
-[⬅️ Previous: How to Access Data](05-access-data.md) | [Back to Home](00-cover.md) | [Next: How to Work Collaboratively in the ADRF ➡️](07-collaborate.md)
+[⬅️ Previous: How to Access Data](05-access-data.md) | [Back to Home](index.md) | [Next: How to Work Collaboratively in the ADRF ➡️](07-collaborate.md)
