@@ -22,6 +22,6 @@
 ## More Information
 If you have any questions, please contact [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
-#
+***
 
 [⬅️ Previous: Inroduction](01-intro.md) | [Back to Home](index.md) | [Next: Onboarding Modules and Security Training ➡️](03-onboarding.md)

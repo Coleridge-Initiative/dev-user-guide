@@ -63,6 +63,6 @@ Here, please enter:
 
 Once you enter the appropriate information and click “Log In,” your dashboard should begin to load. This again may take a minute or two - if you run into any issues, please reach out to us at [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
-#
+***
 
 [⬅️ Previous: Redshift Querying Guide](11-querying-guide.md) | [Back to Home](index.md) | [Next: FAQ ➡️](13-faq.md ))

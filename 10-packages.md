@@ -51,6 +51,6 @@ To install a **specific package version** type:
 pip install pandas==1.2.3
 ```
 
-#
+***
 
 [⬅️ Previous: Do's and Don'ts for Discussing Data Hosted in the ADRF](09-dos-and-donts.md) | [Back to Home](index.md) | [Next: Redshift Querying Guide ➡️](11-querying-guide.md)

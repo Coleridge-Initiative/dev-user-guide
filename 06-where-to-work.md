@@ -33,6 +33,6 @@ The G: drive (data), the L: drive (Libs), and the desktop are not eligible for l
 - Organize folders in a way that makes sense for your particular project. For example, you might have folders for a particular analysis or sub-projects. Dates on file names can be helpful for version control.
 - Keep tabs on how much storage you are using compared to the allocated amount of storage.
 
-#
+***
 
 [⬅️ Previous: How to Access Data](05-access-data.md) | [Back to Home](index.md) | [Next: How to Work Collaboratively in the ADRF ➡️](07-collaborate.md)

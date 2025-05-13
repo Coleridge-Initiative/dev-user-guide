@@ -104,7 +104,7 @@ The Security Training Quiz needs to be completed after the Security Training Vid
 
 ![Security Quiz Complete](images/security_quiz_complete.png) 
 
-#
+***
 
 [⬅️ Previous: Obtaining ADRF Access](02-access.md) | [Back to Home](index.md) | [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md ))
 

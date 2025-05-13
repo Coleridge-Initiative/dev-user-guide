@@ -75,6 +75,6 @@ Each drive location has a different purpose and access rule:
 ## I need to process a large amount of relational data. What is the destination location?
 The best practice is to process the data where it is currently located.  If the data is in a relational database, perform as much of your processing using Redshift to make the most efficient use of resources (i.e. filtering, sorting, etc). 
 
-#
+***
 
 [⬅️ Previous: Accessing ADRF Dashboards](12-dashboards.md)  | [Back to Home](index.md) |

@@ -27,6 +27,6 @@ Percentages and proportions also cannot be directly mentioned. Instead, you can 
 
 **Example**: If a proportion was 30%, you could say “The proportion is about 25%” or “The proportion is between 25% and 50%.”
 
-#
+***
 
 [⬅️ Previous: Obtaining ADRF Access](02-access.md) | [Back to Home](index.md) | [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md)
