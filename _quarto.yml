@@ -5,7 +5,6 @@ book:
   title: "ADRF User Guide"
   author: "Jon Mills, Josh Edelmann, and Corey Sparks"
   date: last-modified
-  cover-image: images/coverpage.png
   date-format: "[Last Updated on] DD MMMM, YYYY"
   chapters:
     - index.md

@@ -1,10 +1,6 @@
-
-
 <p align="center">
     <img src="images/coleridge-logo.png" alt="Coleridge Logo">
 </p>
-
-
 
 # ADRF User Guide
 
