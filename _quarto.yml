@@ -20,7 +20,8 @@ book:
     - 10-packages.md
     - 11-querying-guide.md
     - 12-dashboards.md
-    - 13-faq.md
+    - 13-pass_reset_password.md
+    - 14-faq.md
   search: 
     location: sidebar
     type: textbox
