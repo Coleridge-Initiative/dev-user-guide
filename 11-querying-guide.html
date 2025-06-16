@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,10 +73,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d9110c34616fd975cf68685f99bb278d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-668e8d3ee9f83b8ed7e828b8bc2fe7ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -208,7 +208,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13-faq.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">13 Frequently Asked Questions (FAQ)</span></a>
+  <a href="./13-pass_reset_password.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">How to reset password in PASS Portal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./14-faq.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">13 Frequently Asked Questions (FAQ)</span></a>
   </div>
 </li>
     </ul>
@@ -301,12 +306,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption>Image of Project-Based User Name</figcaption>
 </figure>
 </div>
-<p><strong>Note</strong>: You will need to enter your specific user name when logging into Redshift. The password needed to access Redshift is the second password entered when logging into the ADRF as shown in the screen below: <img src="images/ap2.png" class="img-fluid" alt="Image of Password Entry"></p>
+<p><strong>Note</strong>: You will need to enter your specific user name when logging into Redshift. The password needed to access Redshift is the second password entered when logging into the ADRF as shown in the screen below: <br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ap2.png" class="img-fluid figure-img"></p>
+<figcaption>Image of Password Entry</figcaption>
+</figure>
+</div>
 </section>
 <section id="using-dbeaver-to-access-a-database" class="level2">
 <h2 class="anchored" data-anchor-id="using-dbeaver-to-access-a-database">Using DBeaver to access a database</h2>
 <p>To establish a connection to Redshift in DBeaver, first open DBeaver by clicking on the DBeaver icon located on the ADRF desktop and then double click on the server you wish to connect to. <strong>Note</strong>: All data is stored under schemas in the projects database.</p>
-<p>In the example below, we will connect to <strong>Redshift11_projects</strong>. After double clicking on Reshift11_projects, a window will appear asking for your <strong>Username</strong> and <strong>Password</strong>. - In Username, enter <strong>“adrf\”</strong> followed by your <strong>project workspace username</strong> - In Password, enter the password associated with your project workspace username <img src="images/ap3.png" class="img-fluid" alt="Complete the Username and Password fields"></p>
+<p>In the example below, we will connect to <strong>Redshift11_projects</strong>. After double clicking on Reshift11_projects, a window will appear asking for your <strong>Username</strong> and <strong>Password</strong>.</p>
+<ul>
+<li>In Username, enter <strong>“adrf\”</strong> followed by your <strong>project workspace username</strong></li>
+<li>In Password, enter the password associated with your project workspace username <img src="images/ap3.png" class="img-fluid" alt="Complete the Username and Password fields"></li>
+</ul>
 <p>After completing the Username and Password fields, click <strong>OK</strong>. You will now have access to your data stored on the Redshift11_projects server.</p>
 <p><strong>Note</strong>: Please make sure to enter <strong>“adrf\”</strong> before your project workspace username in the <strong>Username</strong> field. If you do not enter “adrf", or accidently include a”/” instead of a “\”, you will not be able to connect to Redshift. <strong>If you are having trouble connecting, an incorrect entry in Username is most likely the culprit.</strong></p>
 <section id="creating-tables-in-a-pr-or-tr-schema-in-dbeaver" class="level3">
@@ -314,10 +329,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>When users create tables in their PR (Research Project) or TR (Training Project) schema, the table is initially permissioned to the user only. This is analogous to creating a document or file in your U drive: Only you have access to the newly created table.</p>
 <p>If you want to allow all individuals in your project workspace to access the table in the PR/TR schema, you will need to grant permission to the table to the rest of the users who have access to the PR or TR schema.</p>
 <p>You can do this by running the following code: <code>GRANT SELECT, UPDATE, DELETE, INSERT ON TABLE schema_name.table_name TO group db_xxxxxx_rw;</code></p>
-<p><strong>Note</strong>: Note: In the above code example replace schma_name with the pr_ or tr_ schema assigned to your workspace and replace table_name with the name of the table on which you want to grant access. Also, in the group name <code>db_xxxxxx_rw</code>, replace <code>xxxxxx</code> with your project code. This is the last 6 characters in your project based user name. This will start with either a T or a P.</p>
+<p><strong>Note</strong>: Note: In the above code example replace schma<em>name with the pr</em> or tr_ schema assigned to your workspace and replace table_name with the name of the table on which you want to grant access. Also, in the group name <code>db_xxxxxx_rw</code>, replace <code>xxxxxx</code> with your project code. This is the last 6 characters in your project based user name. This will start with either a T or a P.</p>
 <p>If you want to allow <strong>only a single user</strong> on your project to access the table, you will need to grant permission to that user. You can do this by running the following code:</p>
 <p><code>GRANT SELECT, UPDATE, DELETE, INSERT ON TABLE schema_name.table_name to "IAM:first_name.last_name.project_code";</code></p>
-<p><strong>Note</strong>: In the above code example replace schma_name with the pr_ or tr_ schema assigned to your workspace and replace table_name with the name of the table on which you want to grant access. Also, in <code>"IAM:first_name.last_name.project_code"</code> update <code>first_name.last_name.project_code</code> with the user name to whom you want to grant access to.</p>
+<p><strong>Note</strong>: In the above code example replace schma<em>name with the pr</em> or tr_ schema assigned to your workspace and replace table_name with the name of the table on which you want to grant access. Also, in <code>"IAM:first_name.last_name.project_code"</code> update <code>first_name.last_name.project_code</code> with the user name to whom you want to grant access to.</p>
 <p>If you have any questions, please reach out to us at <a href="mailto:support@coleridgeinitiative.org">support@coleridgeinitiative.org</a></p>
 </section>
 </section>
@@ -329,7 +344,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>Redshift11_projects_DSN</code></li>
 </ul>
 <p>In the code examples below, the default DSN is <code>Redshift01_projects_DSN</code>.</p>
-<p><strong>Topics:</strong> - <a href="#connecting-to-a-database-using-sas">Connecting to a database using SAS</a> - <a href="#connecting-to-a-database-using-r">Connecting to a database using R</a> - <a href="#connecting-to-a-database-using-python">Connecting to a database using Python</a> - <a href="#connecting-to-a-database-using-stata">Connecting to a database using Stata</a></p>
+<p><strong>Topics:</strong></p>
+<ul>
+<li><a href="#connecting-to-a-database-using-sas">Connecting to a database using SAS</a></li>
+<li><a href="#connecting-to-a-database-using-r">Connecting to a database using R</a></li>
+<li><a href="#connecting-to-a-database-using-python">Connecting to a database using Python</a></li>
+<li><a href="#connecting-to-a-database-using-stata">Connecting to a database using Stata</a></li>
+</ul>
 <section id="connecting-to-a-database-using-sas" class="level3">
 <h3 class="anchored" data-anchor-id="connecting-to-a-database-using-sas">Connecting to a database using SAS</h3>
 <p>Use the following code to connect to a databse using SAS:</p>
@@ -354,7 +375,7 @@ quit;</code></pre>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RJDBC)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create username</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>dbusr<span class="ot">=</span><span class="fu">paste</span>(<span class="st">"ADRF</span><span class="sc">\\</span><span class="st">"</span>, <span class="fu">Sys.getenv</span>(<span class="st">"USERNAME"</span>), <span class="at">sep=</span> <span class="st">''</span>)                                                                                </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>dbusr<span class="ot">=</span><span class="fu">paste</span>(<span class="st">"ADRF</span><span class="sc">\\</span><span class="st">"</span>, <span class="fu">Sys.getenv</span>(<span class="st">"USERNAME"</span>), <span class="at">sep=</span> <span class="st">''</span>)</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Database URL</span></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"jdbc:redshift:iam://adrf-redshift01.cdy8ch2udktk.us-gov-west-1.redshift.amazonaws.com:5439/projects;"</span>,</span>
@@ -411,9 +432,9 @@ quit;</code></pre>
 <p>When writing an R data frame to Redshift use the following code as an example:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: replace the table_name with the name of the data frame you wish to write to Redshift</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>DBI<span class="sc">::</span><span class="fu">dbWriteTable</span>(<span class="at">conn =</span> conn, <span class="co">#name of the connection </span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">name =</span> <span class="st">"schema_name.table_name"</span>, <span class="co">#name of table to save df to </span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="at">value =</span> df_name, <span class="co">#name of df to write to Redshift </span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>DBI<span class="sc">::</span><span class="fu">dbWriteTable</span>(<span class="at">conn =</span> conn, <span class="co">#name of the connection</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">name =</span> <span class="st">"schema_name.table_name"</span>, <span class="co">#name of table to save df to</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="at">value =</span> df_name, <span class="co">#name of df to write to Redshift</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="at">overwrite =</span> <span class="cn">TRUE</span>) <span class="co">#if you want to overwrite a current table, otherwise FALSE</span></span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>qry <span class="ot">&lt;-</span> <span class="st">"GRANT SELECT ON TABLE schema.table_name TO group &lt;group_name&gt;;"</span></span>
@@ -500,7 +521,11 @@ quit;</code></pre>
 </section>
 <section id="tip-8-use-temp-tables-when-merging-large-data-sets" class="level4">
 <h4 class="anchored" data-anchor-id="tip-8-use-temp-tables-when-merging-large-data-sets">Tip 8: Use temp tables when merging large data sets</h4>
-<p>Creating local temp tables will limit the number of records in large table joins and merges. Instead of performing large table joins, one can break out the analysis by performing the analysis in two steps: 1. Create a temp table with limiting criteria to create a smaller / filtered result set. 2. Join the temp table to the second large table to limit the number of records being fetched and to speed up the query.</p>
+<p>Creating local temp tables will limit the number of records in large table joins and merges. Instead of performing large table joins, one can break out the analysis by performing the analysis in two steps:</p>
+<ol type="1">
+<li>Create a temp table with limiting criteria to create a smaller / filtered result set.</li>
+<li>Join the temp table to the second large table to limit the number of records being fetched and to speed up the query.</li>
+</ol>
 <p>This is especially useful when there are no indexes on the join columns.</p>
 <p><strong>Inefficient</strong></p>
 <p><code>SELECT col_A, col_B, sum(col_C) total FROM projects.schema_name.table_name pd INNER JOIN projects.schema_name.table_name st ON pd.col_A=st.col_B WHERE pd.col_C like 'DOG%' GROUP BY pd.col_A, pd.col_B, pd.col_C</code></p>
