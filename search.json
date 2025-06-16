@@ -672,171 +672,171 @@
   {
     "objectID": "13-pass_reset_password.html",
     "href": "13-pass_reset_password.html",
-    "title": "How to reset password in PASS Portal",
+    "title": "13 How to reset password in PASS Portal",
     "section": "",
     "text": "Log into the Okta ADRF portal and navigate to the Pass Portal in the Okta ADRF Portal as shown below:\n\nClick on the tile on the rightmost side of the Pass Portal app called “Workspace Password Reset” as shown below.\n\n\n\nImage of Okta ADRF Portal\n\n\nThis will direct you to your profile page. You can see information like the Base User and Project User Accounts. Under the Project User Accounts, click on the Change button under “Password.” Refer to the image underneath.\n\n\n\nImage of Okta ADRF Portal\n\n\nYou will see a popup that asks you to enter a new password that need to match a guideline to ensure security. Refer to the image below for the guideline.\n\n\n\nImage of Okta ADRF Portal\n\n\nThat’s all! You should be good to go. You will be met with the following screen.\n\n\n\nImage of Okta ADRF Portal\n\n\nIf you run into any issues, please reach out to us at support@coleridgeinitiative.org.\n⬅️ Previous: Accessing ADRF Dashboards | Back to Home | Next: FAQ ➡️)",
     "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>How to reset password in PASS Portal</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>13 How to reset password in PASS Portal</span>"
     ]
   },
   {
     "objectID": "14-faq.html",
     "href": "14-faq.html",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "",
     "text": "Topics",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#topics",
     "href": "14-faq.html#topics",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "",
-    "text": "13 Frequently Asked Questions (FAQ)\n\nTopics\nHow do I set up my Multifactor Authentication\nCan I set up more than one form of Multifactor Authentication?\nHow can I reset my Okta password?\nHow can I reset my ADRF password?\nWhat if I do not remember my security questions or if I get locked out?\nI can log into the ADRF but my desktop and DS application just show blank pages.\nI saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?\nHow do I open an ipynb notebook?\nHow can I ingest publicly available data into the ADRF?\nWhere can I access publicly available data from within the ADRF?\nWhere is my project or training related data stored?\nMy data is not in a relational format. Where can I find these files?\nWhat is the difference between the P:, U: and G: drives?\nI need to process a large amount of relational data. What is the destination location?",
+    "text": "14 Frequently Asked Questions (FAQ)\n\nTopics\nHow do I set up my Multifactor Authentication\nCan I set up more than one form of Multifactor Authentication?\nHow can I reset my Okta password?\nHow can I reset my ADRF password?\nWhat if I do not remember my security questions or if I get locked out?\nI can log into the ADRF but my desktop and DS application just show blank pages.\nI saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?\nHow do I open an ipynb notebook?\nHow can I ingest publicly available data into the ADRF?\nWhere can I access publicly available data from within the ADRF?\nWhere is my project or training related data stored?\nMy data is not in a relational format. Where can I find these files?\nWhat is the difference between the P:, U: and G: drives?\nI need to process a large amount of relational data. What is the destination location?",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#how-do-i-set-up-my-multifactor-authentication",
     "href": "14-faq.html#how-do-i-set-up-my-multifactor-authentication",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "How do I set up my Multifactor Authentication",
     "text": "How do I set up my Multifactor Authentication\nYou should be prompted to set up multifactor authentication when you create your account, the options are SMS, voice call, email and the Okta verify application.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#can-i-set-up-more-than-one-form-of-multifactor-authentication",
     "href": "14-faq.html#can-i-set-up-more-than-one-form-of-multifactor-authentication",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "Can I set up more than one form of Multifactor Authentication?",
     "text": "Can I set up more than one form of Multifactor Authentication?\nThis is recommended. If you lose access to one form of MFA, you would still be able to gain access to your account using an alternative. To do so, please log on to https://adrf.okta.com and select your name on the top right and click settings. Here you can modify or set up your SMS, voice call, email or Okta multifactor authentication.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#how-can-i-reset-my-okta-password",
     "href": "14-faq.html#how-can-i-reset-my-okta-password",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "How can I reset my Okta password?",
     "text": "How can I reset my Okta password?\nYou can use the “Need help signing in?” option on the sign on page (https://adrf.okta.com) which will send a link to your email to reset your password. You may have to verify your identify by answering security questions which you set up when creating your account.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#how-can-i-reset-my-adrf-password",
     "href": "14-faq.html#how-can-i-reset-my-adrf-password",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "How can I reset my ADRF password?",
     "text": "How can I reset my ADRF password?\nYou can reset your ADRF project password by following these steps:\n\nClick on the ADRF Management Portal Okta Tile:\n\n\n\n\nADRF Management Portal Icon\n\n\n\nThen click on Admin Tasks on the left hand side of the screen:\n\n\n\n\nAdmin Tasks\n\n\n\nThen click on RESET PASSWORD:\n\n\n\n\nReset Password\n\n\nYou’ll see a screen where you can choose the project(s) for which you want to update the password.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#what-if-i-do-not-remember-my-security-questions-or-if-i-get-locked-out",
     "href": "14-faq.html#what-if-i-do-not-remember-my-security-questions-or-if-i-get-locked-out",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "What if I do not remember my security questions or if I get locked out?",
     "text": "What if I do not remember my security questions or if I get locked out?\nYou would have to reach out to support at support@coleridgeinitiative.org to have your account unlocked and you would have to reset your security questions so that you can recover your account in the future.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages.",
     "href": "14-faq.html#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages.",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "I can log into the ADRF but my desktop and DS application just show blank pages.",
     "text": "I can log into the ADRF but my desktop and DS application just show blank pages.\nPlease ensure the connection to ADRF is not being blocked by your organizations VPN and/or firewall (try using a device not connected to your organization’s network) and reach out to support@coleridgeinitiative.org.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#i-saved-a-file-in-the-c-drive-or-in-the-desktop.-when-i-logged-back-in-the-file-is-no-longer-there.-can-you-restore-it",
     "href": "14-faq.html#i-saved-a-file-in-the-c-drive-or-in-the-desktop.-when-i-logged-back-in-the-file-is-no-longer-there.-can-you-restore-it",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "I saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?",
     "text": "I saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?\nThe ADRF is a temporary workspace environment, files left on the desktop will be removed when you log out of your session, and we cannot restore these files. See section Best practice is to store files in your user folder on the U: drive",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#how-do-i-open-an-ipynb-notebook",
     "href": "14-faq.html#how-do-i-open-an-ipynb-notebook",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "How do I open an ipynb notebook?",
     "text": "How do I open an ipynb notebook?\nOn the desktop you should find an icon for JupyterLab, when you click that, a command prompt and a browser window are opened up, leave the command prompt running. You should be able to open the file by selecting File -&gt; Open From Path and providing the path to the folder containing the ipynb notebook.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#how-can-i-ingest-publicly-available-data-into-the-adrf",
     "href": "14-faq.html#how-can-i-ingest-publicly-available-data-into-the-adrf",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "How can I ingest publicly available data into the ADRF?",
     "text": "How can I ingest publicly available data into the ADRF?\nPlease open a support request by sending an email to support@coleridgeinitiative.org. Include the dataset you wish to have available inside the ADRF and documentation that confirms that the dataset is public.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#where-can-i-access-publicly-available-data-from-within-the-adrf",
     "href": "14-faq.html#where-can-i-access-publicly-available-data-from-within-the-adrf",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "Where can I access publicly available data from within the ADRF?",
     "text": "Where can I access publicly available data from within the ADRF?\nPublicly available data is stored in the schema ds_public_1.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#where-is-my-project-or-training-related-data-stored",
     "href": "14-faq.html#where-is-my-project-or-training-related-data-stored",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "Where is my project or training related data stored?",
     "text": "Where is my project or training related data stored?\nAll project and training related databases are prefixed with ‘pr’ (for project) or ‘tr’ (for training). You may use this space when creating intermediate datasets or as a “working space”. All project members have read and write access to this area (specific to your project).",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#my-data-is-not-in-a-relational-format.-where-can-i-find-these-files",
     "href": "14-faq.html#my-data-is-not-in-a-relational-format.-where-can-i-find-these-files",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "My data is not in a relational format. Where can I find these files?",
     "text": "My data is not in a relational format. Where can I find these files?\nRead-only non-relational data are stored in the G: drive on Windows Explorer. Project specific non-relational data and files are stored in project specific folders that are prefixed with ‘pr’ or ‘tr’. The location of these folders are in the P: drive on Windows Explorer.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#what-is-the-difference-between-the-p-u-and-g-drives",
     "href": "14-faq.html#what-is-the-difference-between-the-p-u-and-g-drives",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "What is the difference between the P:, U: and G: drives?",
     "text": "What is the difference between the P:, U: and G: drives?\nEach drive location has a different purpose and access rule:\n\nP: Project specific files shared by ALL project members\nU: User personal space. Only the user has read/write access to this area.\nG: Non-relational datasets. Read-only access to authorized users only.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   },
   {
     "objectID": "14-faq.html#i-need-to-process-a-large-amount-of-relational-data.-what-is-the-destination-location",
     "href": "14-faq.html#i-need-to-process-a-large-amount-of-relational-data.-what-is-the-destination-location",
-    "title": "13 Frequently Asked Questions (FAQ)",
+    "title": "14 Frequently Asked Questions (FAQ)",
     "section": "I need to process a large amount of relational data. What is the destination location?",
     "text": "I need to process a large amount of relational data. What is the destination location?\nThe best practice is to process the data where it is currently located. If the data is in a relational database, perform as much of your processing using Redshift to make the most efficient use of resources (i.e. filtering, sorting, etc).\n\n⬅️ Previous: Pass Portal Password Reset | Back to Home |",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>13 Frequently Asked Questions (FAQ)</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
   }
 ]
