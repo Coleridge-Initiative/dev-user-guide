@@ -1,4 +1,4 @@
-# How to reset password in PASS Portal
+# 13 How to reset password in PASS Portal
 
 Log into the Okta ADRF portal and navigate to the **Pass Portal** in the Okta ADRF Portal as shown below:
 

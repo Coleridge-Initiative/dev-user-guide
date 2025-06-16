@@ -1,8 +1,8 @@
-# 13 Frequently Asked Questions (FAQ)
+# 14 Frequently Asked Questions (FAQ)
 
 ## Topics
 
-- [13 Frequently Asked Questions (FAQ)](#13-frequently-asked-questions-faq)
+- [14 Frequently Asked Questions (FAQ)](#14-frequently-asked-questions-faq)
   - [Topics](#topics)
   - [How do I set up my Multifactor Authentication](#how-do-i-set-up-my-multifactor-authentication)
   - [Can I set up more than one form of Multifactor Authentication?](#can-i-set-up-more-than-one-form-of-multifactor-authentication)
