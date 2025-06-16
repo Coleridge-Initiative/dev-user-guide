@@ -5,10 +5,14 @@ Some users will be approved to access an ADRF Dashboard. This section provides s
 **Note**: If you are a first-time ADRF Users, please follow the instructions in the [Onboarding Modules and Security Training](#3-onboarding-modules-and-security-training) to activate your ADRF account and complete your onboarding tasks.
 
 ## Topics
-- [Step 1: Setting your dashboard access password](#step-1-setting-your-dashboard-access-password)
-- [Step 2: Accessing the Dashboard](#step-2-accessing-the-dashboard)
+
+- [12 Accessing ADRF Dashboards](#12-accessing-adrf-dashboards)
+  - [Topics](#topics)
+  - [Step 1: Setting your dashboard access password](#step-1-setting-your-dashboard-access-password)
+  - [Step 2: Accessing the Dashboard](#step-2-accessing-the-dashboard)
 
 ## Step 1: Setting your dashboard access password
+
 Once you have completed the management portal onboarding tasks, you will next need to set your **dashboard access password**. This is separate from the first password you use to access the ADRF through Okta, and will instead be used to provide specific access to the dashboard. **You should only need to do this the first time you access the dashboard, but you can always follow these instructions if you need to update or reset your dashboard access password in the future.**
 
 1. In the Management Portal, again navigate to the “Admin Tasks” page by clicking the link on the sidebar navigation menu:
@@ -43,7 +47,6 @@ Once you have successfully reset your dashboard access password, you are ready t
 
 ![Your Dashboard](images/db_dashboard_tile.png)
 
-
 Clicking on this will bring up another window where you will be prompted to **“Choose Your Application to Get Started.”** Click on your **Dashboard icon**:
 
 ![Choose your application to get started](images/db_application.png)
@@ -63,6 +66,6 @@ Here, please enter:
 
 Once you enter the appropriate information and click “Log In,” your dashboard should begin to load. This again may take a minute or two - if you run into any issues, please reach out to us at [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
-***
+---
 
-[⬅️ Previous: Redshift Querying Guide](11-querying-guide.md) | [Back to Home](index.md) | [Next: FAQ ➡️](13-faq.md ))
+[⬅️ Previous: Redshift Querying Guide](11-querying-guide.md) | [Back to Home](index.md) | [Next: Pass Portal Password Reset ➡️](13-pass_reset_password.md))

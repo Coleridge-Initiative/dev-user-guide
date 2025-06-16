@@ -4,11 +4,14 @@ You **must protect the confidential data** that is hosted inside the ADRF in com
 
 To ensure **safe outputs**, the Coleridge Initiative works with an agency’s Data Steward to develop rigorous export review requirements catered to the specific needs of the partner agency. While you should make sure to acquaint yourself with the specific export rules associated with the confidential data you have been approved to access, **cheat sheet provided below** summarizes some of the rules that apply to discussing data before it has been exported from the ADRF and passed the ADRF team’s disclosure review. 
 
-If you are unsure about a specific situation, please ask reach out to the Coleridge Support Team at [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
+If you are unsure about a specific situation, please ask reach out to the Coleridge Support Team at [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org). <br>
+
 ## Topics
-- [Comparing Values](#comparing-values)
-- [Exact Numbers](#exact-numbers)
-- [Percentages and Proportions](#percentages-and-proportions)
+- [9 Do's and Don'ts for Discussing Data Hosted in the ADRF](#9-dos-and-donts-for-discussing-data-hosted-in-the-adrf)
+  - [Topics](#topics)
+  - [Exact Numbers](#exact-numbers)
+  - [Comparing Values](#comparing-values)
+  - [Percentages and Proportions](#percentages-and-proportions)
 
 ## Exact Numbers
 Do not describe a statistic in exact numbers. If you would like to communicate these values while not in person, you can have a private discussion via the projects drive inside the ADRF.

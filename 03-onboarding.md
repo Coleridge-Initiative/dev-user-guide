@@ -1,39 +1,47 @@
 # 3 Onboarding Modules and Security Training
 
 ## Topics
-- [Management Portal](#management-portal)
-- [Accessing the Onboarding Tasks](#accessing-the-onboarding-tasks)
-- [Signing the ADRF Terms of Use Agreement](#signing-the-adrf-terms-of-use-agreement)
-- [Watching the Security Training Video](#watching-the-security-training-video)
-- [Complete the Security Training Quiz](#complete-the-security-training-quiz)
+
+- [3 Onboarding Modules and Security Training](#3-onboarding-modules-and-security-training)
+  - [Topics](#topics)
+  - [Management Portal](#management-portal)
+  - [Accessing the Onboarding Tasks](#accessing-the-onboarding-tasks)
+  - [Signing the ADRF Terms of Use Agreement](#signing-the-adrf-terms-of-use-agreement)
+  - [Watching the Security Training Video](#watching-the-security-training-video)
+  - [Complete the Security Training Quiz](#complete-the-security-training-quiz)
 
 ## Management Portal
+
 The Management Portal web-based application is positioned primarily as the management and monitoring console for project and data stewards. It provides detailed insight on project configurations, user activity, user onboarding status, and overall cost of a project on the ADRF. We focus on four primary pillars of information a Project/Data Steward most often focuses on:
+
 - **People** – Who are the members of projects, how often do they use the ADRF, what exports have they requested and their status, estimated cost per person/project for current month and for the project since inception, and detailed usage metrics.
 - **Projects** – Details of project start/end dates, abstract description, number of members onboarded and pending, and resources the project has access to (i.e. datasets, etc).
 - **Datasets** – Description of the dataset, location on the ADRF (database or file system), size, name of the data steward(s), and the link to Enterprise Data Catalog (Informatica) describing the dataset and metadata.
 - **Agreements** – What agreements are related to these projects, indication of each member’s signing status, members pending signature, and term (dates) covered by the agreement(s).
 
-As mentioned, the Management Portal application will track your ADRF usage. The protal will also consolidate your ADRF Terms of Use, Security Training Quiz, and Security Training Video into one place. In order to complete ADRF onboarding, all three of the mentioned tasks are to be completed by the user (researcher). To access the Management Portal, log in using your credentials at https://adrf.okta.com and click on the ADRF Management Portal icon:
+As mentioned, the Management Portal application will track your ADRF usage. The portal will also consolidate your ADRF Terms of Use, Security Training Quiz, and Security Training Video into one place. In order to complete ADRF onboarding, all three of the mentioned tasks are to be completed by the user (researcher). To access the Management Portal, log in using your credentials at [https://adrf.okta.com](https://adrf.okta.com) and click on the ADRF Management Portal icon:
 
 ![ADRF Management Portal Icon](images/mp_icon.png)
 
 Once inside the Management Portal, you have access to your personal workspace sessions statistics along with admin tasks such as the three onboarding tasks and password management. See the example below:
 
-![Management Portal Insights Page](images/mp_home.png) 
+![Management Portal Insights Page](images/mp_home.png)
 
 ## Accessing the Onboarding Tasks
-To gain access to your ADRF project workspace, you must first complete 3 required ADRF onboarding tasks: 
+
+To gain access to your ADRF project workspace, you must first complete 3 required ADRF onboarding tasks:
+
 1. **Signing the ADRF Terms of Use agreement**. Users must comply with the Terms of Use when working in the ADRF. The Agreement covers rules of behavior within ADRF and guidelines for discussing ADRF content prior to passing disclosure review. It asks users to agree to a series of principles governing dataset use, behavior, and data export procedures, and to acknowledge the consequences of violating the Terms.
 2. **Completing security awareness training**. Users will get access to a security awareness video and should confirm that they have reviewed the video. The video covers security content that is then assessed during the security awareness quiz.
 3. **Passing the security awareness quiz**. The security awareness quiz consists of a set of 6 questions. Users must achieve a score 5 out of 6 to pass the quiz. Unsuccessful users can retake the quiz to achieve a passing score.
 
 Follow the steps below to access the **ADRF Onboarding Tasks**:
+
 1. Log in to the Management Portal
 
 2. Click on **“Admin Tasks”** in the left navigation menu.
 
-![Click on 'Admin Tasks' in the left navigation menu](images/admin_tasks.png) 
+![Click on 'Admin Tasks' in the left navigation menu](images/admin_tasks.png)
 
 3. Click on **“Complete Onboarding”**.
 
@@ -77,7 +85,7 @@ You will then be redirected back to the management portal; and the “Terms of U
 
 ## Watching the Security Training Video
 
-You will also need to watch the ADRF Security Training Video. 
+You will also need to watch the ADRF Security Training Video.
 
 ![ADRF Security Training Video](images/security-training-video.png)
 
@@ -102,9 +110,8 @@ The Security Training Quiz needs to be completed after the Security Training Vid
 
 3. You will be automatically redirected to the main task panel once the questionnaire has been successfully completed. And the **“Security Quiz”** will be marked as completed.
 
-![Security Quiz Complete](images/security_quiz_complete.png) 
+![Security Quiz Complete](images/security_quiz_complete.png)
 
-***
+---
 
-[⬅️ Previous: Obtaining ADRF Access](02-access.md) | [Back to Home](index.md) | [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md ))
-
+[⬅️ Previous: Obtaining ADRF Access](02-access.md) | [Back to Home](index.md) | [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md))

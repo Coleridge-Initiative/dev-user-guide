@@ -14,7 +14,10 @@ This video linked below runs through the necessary steps for logging into and lo
 
 To watch the video, **right-click the image below** and choose **"Open link in new tab"** (by right-cicking, you will avoid leaving this page).
 
-![Logging into ADRF](https://img.youtube.com/vi/_-AE_iOyF9w/0.jpg)](https://www.youtube.com/watch?v=_-AE_iOyF9w)
+[![Logging into ADRF](https://img.youtube.com/vi/_-AE_iOyF9w/0.jpg)](https://www.youtube.com/watch?v=_-AE_iOyF9w)
+
+
+
 
 ## Virtual Desktop Environment
 ### What is a VDE?

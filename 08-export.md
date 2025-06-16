@@ -6,12 +6,18 @@ To learn more about limiting disclosure more generally, please refer to the [Big
 Note: The Export Requester cannot be assigned as a reviewer of the same export.
 
 ## Topics
-- [General Best Practices for a Successful Export](#general-best-practices-for-a-successful-export)
-- [Timelines for Export Process](#timelines-for-export-process)
-- [Export Review Process](#export-review-process)
-- [How to Check Your Export Review Status](#how-to-check-your-export-review-status)
-- [Preparing Data for Export](#preparing-data-for-export)
-- [Submitting an Export Request](#submitting-an-export-request)
+- [8 How to Export Output from the ADRF](#8-how-to-export-output-from-the-adrf)
+  - [Topics](#topics)
+  - [General Best Practices for a Successful Export](#general-best-practices-for-a-successful-export)
+  - [Timelines for Export Process](#timelines-for-export-process)
+  - [Export Review Process](#export-review-process)
+  - [How to Check Your Export Review Status:](#how-to-check-your-export-review-status)
+    - [Review status descriptions](#review-status-descriptions)
+  - [Preparing Data for Export](#preparing-data-for-export)
+    - [Tables](#tables)
+    - [Graphs](#graphs)
+    - [Model Output](#model-output)
+  - [Submitting an Export Request](#submitting-an-export-request)
 
 ## General Best Practices for a Successful Export
 **Note**: Currently, the review process is highly manual: Reviewers will read your code and view your output files, which may be time-consuming.
@@ -81,7 +87,7 @@ To request an export be reviewed, please follow the instructions below or you ca
 4. Choose your project as seen in the photo below. For the purpose of this document, you are seeing the Coleridge Initiative Associate Access project.
 ![Choose your project](images/exp1.png)
 5. Select Desktop and login with the same credentials you had done previously.
-6. Upon entering the ADRF, a Google Chrome page will appear as shown in the photo below (the **Getting Started** page). On this page, click on the **Export Request** tile. Or, from the ADRF desktop, open Google Chrome and navigate to export.adrf.net. (Note: export.adrf.net is an address that will only work within the ADRF desktop).
+6. Upon entering the ADRF, a Google Chrome page will appear as shown in the photo below (the **Getting Started** page). On this page, click on the **Export Request** tile. Or, from the ADRF desktop, open Google Chrome and navigate to export.adrf.net. (Note: [export.adrf.net](export.adrf.net) is an address that will only work within the ADRF desktop).
 ![Go to the Export Module](images/exp2.png)
 7. Click **My Requests**, or the top (person-shaped) icon, at the left side of the window as shown in the screenshot below.
 ![Click on My Requests](images/exp3.png)
