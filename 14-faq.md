@@ -35,9 +35,9 @@ You can use the “Need help signing in?” option on the sign on page (https://
 
 You can reset your ADRF project password by following these steps:
 
-1. Click on the ADRF Management Portal Okta Tile:
+1. Click on the PASS Portal Okta Tile:
 
-![ADRF Management Portal Icon](images/mp_icon.png)
+![PASS Portal Icon](images/pass.png)
 
 3. Then click on Admin Tasks on the left hand side of the screen:
 
