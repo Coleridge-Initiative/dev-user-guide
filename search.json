@@ -730,8 +730,8 @@
     ]
   },
   {
-    "objectID": "14-faq.html#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages.",
-    "href": "14-faq.html#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages.",
+    "objectID": "14-faq.html#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages",
+    "href": "14-faq.html#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages",
     "title": "14 Frequently Asked Questions (FAQ)",
     "section": "I can log into the ADRF but my desktop and DS application just show blank pages.",
     "text": "I can log into the ADRF but my desktop and DS application just show blank pages.\nPlease ensure the connection to ADRF is not being blocked by your organizations VPN and/or firewall (try using a device not connected to your organization’s network) and reach out to support@coleridgeinitiative.org.",
@@ -740,8 +740,8 @@
     ]
   },
   {
-    "objectID": "14-faq.html#i-saved-a-file-in-the-c-drive-or-in-the-desktop.-when-i-logged-back-in-the-file-is-no-longer-there.-can-you-restore-it",
-    "href": "14-faq.html#i-saved-a-file-in-the-c-drive-or-in-the-desktop.-when-i-logged-back-in-the-file-is-no-longer-there.-can-you-restore-it",
+    "objectID": "14-faq.html#i-saved-a-file-in-the-c-drive-or-in-the-desktop-when-i-logged-back-in-the-file-is-no-longer-there-can-you-restore-it",
+    "href": "14-faq.html#i-saved-a-file-in-the-c-drive-or-in-the-desktop-when-i-logged-back-in-the-file-is-no-longer-there-can-you-restore-it",
     "title": "14 Frequently Asked Questions (FAQ)",
     "section": "I saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?",
     "text": "I saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?\nThe ADRF is a temporary workspace environment, files left on the desktop will be removed when you log out of your session, and we cannot restore these files. See section Best practice is to store files in your user folder on the U: drive",
@@ -790,8 +790,8 @@
     ]
   },
   {
-    "objectID": "14-faq.html#my-data-is-not-in-a-relational-format.-where-can-i-find-these-files",
-    "href": "14-faq.html#my-data-is-not-in-a-relational-format.-where-can-i-find-these-files",
+    "objectID": "14-faq.html#my-data-is-not-in-a-relational-format-where-can-i-find-these-files",
+    "href": "14-faq.html#my-data-is-not-in-a-relational-format-where-can-i-find-these-files",
     "title": "14 Frequently Asked Questions (FAQ)",
     "section": "My data is not in a relational format. Where can I find these files?",
     "text": "My data is not in a relational format. Where can I find these files?\nRead-only non-relational data are stored in the G: drive on Windows Explorer. Project specific non-relational data and files are stored in project specific folders that are prefixed with ‘pr’ or ‘tr’. The location of these folders are in the P: drive on Windows Explorer.",
@@ -810,8 +810,8 @@
     ]
   },
   {
-    "objectID": "14-faq.html#i-need-to-process-a-large-amount-of-relational-data.-what-is-the-destination-location",
-    "href": "14-faq.html#i-need-to-process-a-large-amount-of-relational-data.-what-is-the-destination-location",
+    "objectID": "14-faq.html#i-need-to-process-a-large-amount-of-relational-data-what-is-the-destination-location",
+    "href": "14-faq.html#i-need-to-process-a-large-amount-of-relational-data-what-is-the-destination-location",
     "title": "14 Frequently Asked Questions (FAQ)",
     "section": "I need to process a large amount of relational data. What is the destination location?",
     "text": "I need to process a large amount of relational data. What is the destination location?\nThe best practice is to process the data where it is currently located. If the data is in a relational database, perform as much of your processing using Redshift to make the most efficient use of resources (i.e. filtering, sorting, etc).",
@@ -820,11 +820,11 @@
     ]
   },
   {
-    "objectID": "14-faq.html#why-did-i-receive-a-saml-error-when-logging-into-dbeaver-why-did-i-receive-a-saml-error-when-logging-into-dbeaver",
-    "href": "14-faq.html#why-did-i-receive-a-saml-error-when-logging-into-dbeaver-why-did-i-receive-a-saml-error-when-logging-into-dbeaver",
+    "objectID": "14-faq.html#why-did-I-receive-a-SAML-error-when-logging-into-dbeaver",
+    "href": "14-faq.html#why-did-I-receive-a-SAML-error-when-logging-into-dbeaver",
     "title": "14 Frequently Asked Questions (FAQ)",
-    "section": "Why did I receive a SAML error when logging into Dbeaver? {#Why-did-I-receive-a-SAML-error-when-logging-into-Dbeaver?}",
-    "text": "Why did I receive a SAML error when logging into Dbeaver? {#Why-did-I-receive-a-SAML-error-when-logging-into-Dbeaver?}\nThere are several potential reasons this message may appear, and most of them have to do with credentials being entered incorrectly. Below are some scenarios when you may run into this error message.\n\nYou forgot to enter “adrf\\” at the beginning of your username.\nYour username was correct but your password was not.\nThe username you entered is invalid.\n\nSolution: Ensure that both your username and password are entered correctly and that your username is preceded by “adrf\\”. If you are 100% sure that you are entering your credentials correctly from within the correct workspace and you are still running into this error message, you should try resetting your workspace password and making one more attempt to connect to Redshift using your workspace credentials. If after that you are still running into problems, you should contact our support team at support@coleridgeinitiative.org.\n\n⬅️ Previous: Pass Portal Password Reset | Back to Home |",
+    "section": "Why did I receive a SAML error when logging into Dbeaver?",
+    "text": "Why did I receive a SAML error when logging into Dbeaver?\nThere are several potential reasons this message may appear, and most of them have to do with credentials being entered incorrectly. Below are some scenarios when you may run into this error message.\n\nYou forgot to enter “adrf\\” at the beginning of your username.\nYour username was correct but your password was not.\nThe username you entered is invalid.\n\nSolution: Ensure that both your username and password are entered correctly and that your username is preceded by “adrf\\”. If you are 100% sure that you are entering your credentials correctly from within the correct workspace and you are still running into this error message, you should try resetting your workspace password and making one more attempt to connect to Redshift using your workspace credentials. If after that you are still running into problems, you should contact our support team at support@coleridgeinitiative.org.\n\n⬅️ Previous: Pass Portal Password Reset | Back to Home |",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
