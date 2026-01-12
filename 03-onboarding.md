@@ -12,7 +12,6 @@ editor:
 -   [Accessing the Onboarding Tasks](#accessing-the-onboarding-tasks)
 
 ## Coleridge PASS (Privacy, Access, Safety, Security) {#pass-portal}
->>>>>>> ad1ba50 (updating guide)
 
 The Coleridge PASS web-based application is positioned primarily as the management and monitoring console for project and data stewards.
 It provides detailed insight on project configurations, user activity, user onboarding status, and overall cost of a project on the ADRF.
@@ -56,7 +55,7 @@ To gain access to your ADRF project workspace, you must first complete 3 require
     Users must achieve a score 5 out of 6 to pass the quiz.
     Unsuccessful users can retake the quiz to achieve a passing score.
 
-## Accessing the Onboarding Tasks\]
+## Accessing the Onboarding Tasks
 
 Follow the steps below to access the **ADRF Onboarding Tasks**:
 

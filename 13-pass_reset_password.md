@@ -8,7 +8,7 @@ Click on the tile on the rightmost side of the Pass Portal app called **"Workspa
 
 ![Image of reset password tiile](/images/reset.png)
 
-This will direct you to your profile page. You can see information like the _Base User_ and _Project User Accounts_. Under the _Project User Accounts_, click on the Change button under "Password." Refer to the image underneath.
+This will direct you to your profile page. You can see information like the *Base User* and *Project User Accounts*. Under the *Project User Accounts*, click on the Change button under "Password." Refer to the image underneath.
 
 ![Image of profile for password reset](/images/change.png)
 
@@ -16,10 +16,10 @@ You will see a popup that asks you to enter a new password that need to match a 
 
 ![Image of writing new password](/images/password.png)
 
-**_That's all!_** You should be good to go. You will be met with the following screen.
+***That's all!*** You should be good to go. You will be met with the following screen.
 
 ![Image of success screen](/images/success.png)
 
-If you run into any issues, please reach out to us at [support@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
+If you run into any issues, please reach out to us at [support\@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
-[⬅️ Previous: Accessing ADRF Dashboards](12-dashboards.md) | [Back to Home](index.md) | [Next: FAQ ➡️](14-faq.md))
+[⬅️ Previous: Accessing ADRF Dashboards](12-dashboards.md) \| [Back to Home](index.md) \| [Next: FAQ ➡️](14-faq.md))
