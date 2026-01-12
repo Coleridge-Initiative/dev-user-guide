@@ -18,6 +18,7 @@
     -   [My data is not in a relational format. Where can I find these files?](#my-data-is-not-in-a-relational-format-where-can-i-find-these-files)
     -   [What is the difference between the P:, U: and G: drives?](#what-is-the-difference-between-the-p-u-and-g-drives)
     -   [I need to process a large amount of relational data. What is the destination location?](#i-need-to-process-a-large-amount-of-relational-data-what-is-the-destination-location)
+    -   [Why did I receive a SAML error when logging into Dbeaver?](#Why-did-I-receive-a-SAML-error-when-logging-into-Dbeaver?)
 
 ## How do I set up my Multifactor Authentication {#how-do-i-set-up-my-multifactor-authentication}
 
@@ -95,7 +96,7 @@ Each drive location has a different purpose and access rule:
 
 The best practice is to process the data where it is currently located. If the data is in a relational database, perform as much of your processing using Redshift to make the most efficient use of resources (i.e. filtering, sorting, etc).
 
-## Why did I receive a SAML error when logging into Dbeaver?
+## Why did I receive a SAML error when logging into Dbeaver? {#Why-did-I-receive-a-SAML-error-when-logging-into-Dbeaver?}
 
 There are several potential reasons this message may appear, and most of them have to do with credentials being entered incorrectly. Below are some scenarios when you may run into this error message.
 
