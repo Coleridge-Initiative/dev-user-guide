@@ -1,5 +1,3 @@
----
-editor: 
 # 3 Onboarding Modules and Security Training
 
 ## Topics
@@ -73,6 +71,6 @@ Follow the steps below to access the **ADRF Onboarding Tasks**:
 
 ![Security Quiz](images/quiz.png)
 
-------------------------------------------------------------------------
+***
 
 [⬅️ Previous: Obtaining ADRF Access](02-access.md) \| [Back to Home](index.md) \| [Next: How to Access and Use Your Project Workspace➡️](04-access-and-use.md))
