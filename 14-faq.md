@@ -18,7 +18,7 @@
     -   [My data is not in a relational format. Where can I find these files?](#my-data-is-not-in-a-relational-format-where-can-i-find-these-files)
     -   [What is the difference between the P:, U: and G: drives?](#what-is-the-difference-between-the-p-u-and-g-drives)
     -   [I need to process a large amount of relational data. What is the destination location?](#i-need-to-process-a-large-amount-of-relational-data-what-is-the-destination-location)
-    -   [Why did I receive a SAML error when logging into Dbeaver?](#Why-did-I-receive-a-SAML-error-when-logging-into-Dbeaver?)
+    -   [Why did I receive a SAML error when logging into Dbeaver?](#why-did-I-receive-a-SAML-error-when-logging-into-dbeaver)
 
 ## How do I set up my Multifactor Authentication {#how-do-i-set-up-my-multifactor-authentication}
 
@@ -56,11 +56,11 @@ You can reset your ADRF project password by following these steps:
 
 You would have to reach out to support at support\@coleridgeinitiative.org to have your account unlocked and you would have to reset your security questions so that you can recover your account in the future.
 
-## I can log into the ADRF but my desktop and DS application just show blank pages.
+## I can log into the ADRF but my desktop and DS application just show blank pages.{#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages}
 
 Please ensure the connection to ADRF is not being blocked by your organizations VPN and/or firewall (try using a device not connected to your organization’s network) and reach out to [support\@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
-## I saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it?
+## I saved a file in the C: drive or in the Desktop. When I logged back in, the file is no longer there. Can you restore it? {#i-saved-a-file-in-the-c-drive-or-in-the-desktop-when-i-logged-back-in-the-file-is-no-longer-there-can-you-restore-it}
 
 The ADRF is a temporary workspace environment, files left on the desktop will be removed when you log out of your session, and we cannot restore these files. See section Best practice is to store files in your user folder on the U: drive
 
@@ -80,7 +80,7 @@ Publicly available data is stored in the schema ds_public_1.
 
 All project and training related databases are prefixed with 'pr*' (for project) or 'tr*' (for training). You may use this space when creating intermediate datasets or as a “working space”. All project members have read and write access to this area (specific to your project).
 
-## My data is not in a relational format. Where can I find these files?
+## My data is not in a relational format. Where can I find these files? {#my-data-is-not-in-a-relational-format-where-can-i-find-these-files}
 
 Read-only non-relational data are stored in the G: drive on Windows Explorer. Project specific non-relational data and files are stored in project specific folders that are prefixed with ‘pr*’ or ‘tr*’. The location of these folders are in the P: drive on Windows Explorer.
 
@@ -92,11 +92,11 @@ Each drive location has a different purpose and access rule:
 -   U: User personal space. Only the user has read/write access to this area.
 -   G: Non-relational datasets. Read-only access to authorized users only.
 
-## I need to process a large amount of relational data. What is the destination location?
+## I need to process a large amount of relational data. What is the destination location? {#i-need-to-process-a-large-amount-of-relational-data-what-is-the-destination-location}
 
 The best practice is to process the data where it is currently located. If the data is in a relational database, perform as much of your processing using Redshift to make the most efficient use of resources (i.e. filtering, sorting, etc).
 
-## Why did I receive a SAML error when logging into Dbeaver? {#Why-did-I-receive-a-SAML-error-when-logging-into-Dbeaver?}
+## Why did I receive a SAML error when logging into Dbeaver? {#why-did-I-receive-a-SAML-error-when-logging-into-dbeaver}
 
 There are several potential reasons this message may appear, and most of them have to do with credentials being entered incorrectly. Below are some scenarios when you may run into this error message.
 
