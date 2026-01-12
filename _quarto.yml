@@ -26,7 +26,7 @@ book:
   # ⬇️ This is the global chapter sidebar
   sidebar:
     style: docked          # or "floating", but docked feels more “always there”
-    background: "#4c2a9d"
+    #background: "#4c2a9d"
     search: true
     collapse-level: 1      # show all top-level items expanded
     pinned: true           # keep sidebar accessible on narrow screens
