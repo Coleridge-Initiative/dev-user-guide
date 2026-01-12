@@ -25,7 +25,6 @@ book:
   search: 
     location: sidebar
     type: textbox
-    limit: 3
 
 format:
   html:

@@ -56,7 +56,7 @@ You can reset your ADRF project password by following these steps:
 
 You would have to reach out to support at support\@coleridgeinitiative.org to have your account unlocked and you would have to reset your security questions so that you can recover your account in the future.
 
-## I can log into the ADRF but my desktop and DS application just show blank pages.{#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages}
+## I can log into the ADRF but my desktop and DS application just show blank pages. {#i-can-log-into-the-adrf-but-my-desktop-and-ds-application-just-show-blank-pages}
 
 Please ensure the connection to ADRF is not being blocked by your organizations VPN and/or firewall (try using a device not connected to your organization’s network) and reach out to [support\@coleridgeinitiative.org](mailto:support@coleridgeinitiative.org).
 
