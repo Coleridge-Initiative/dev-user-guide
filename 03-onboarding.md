@@ -1,9 +1,5 @@
 ---
 editor: 
-  markdown: 
-    wrap: sentence
----
-
 # 3 Onboarding Modules and Security Training
 
 ## Topics

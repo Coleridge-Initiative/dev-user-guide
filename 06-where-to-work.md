@@ -1,4 +1,5 @@
 # 6 Where to Do Your Work
+
 The sensitive data that you have been approved to access will either be stored in the ADRF's structured or unstructured stroage locations (see How to Access Data](05-access-data.md).
 
 ## Topics

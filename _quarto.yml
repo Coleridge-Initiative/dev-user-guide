@@ -25,6 +25,11 @@ book:
   search: 
     location: sidebar
     type: textbox
+    limit: 3
+  sidebar: 
+    background: "#4c2a9d"
+    search: true
+    style: floating
 
 format:
   html:
@@ -32,13 +37,9 @@ format:
     backgroundcolor: "white"
     highlight-style: arrow
     embed-resources: false
-    toc: true
+    toc: true          # enables per-chapter TOC
     df-print: paged
     number-sections: false 
     number-depth: 1
-    sidebar: 
-      background: "#4c2a9d"
-      search: true
-      style: floating
 
 editor: visual

@@ -1,9 +1,3 @@
----
-editor: 
-  markdown: 
-    wrap: sentence
----
-
 # 8 How to Export Output from the ADRF
 
 To provide ADRF users with the ability to draw from sensitive data, results that are exported from the ADRF must meet rigorous standards meant to protect privacy and confidentiality.
