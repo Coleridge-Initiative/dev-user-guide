@@ -324,7 +324,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>In Password, enter the password associated with your project workspace username <img src="images/ap3.png" class="img-fluid" alt="Complete the Username and Password fields"></li>
 </ul>
 <p>After completing the Username and Password fields, click <strong>OK</strong>. You will now have access to your data stored on the Redshift11_projects server.</p>
-<p><strong>Note</strong>: Please make sure to enter <strong>“adrf\”</strong> before your project workspace username in the <strong>Username</strong> field. If you do not enter “adrf", or accidently include a”/” instead of a “\”, you will not be able to connect to Redshift. <strong>If you are having trouble connecting, an incorrect entry in Username is most likely the culprit.</strong></p>
+<p><strong>Note</strong>: Please make sure to enter <strong>“adrf\”</strong> before your project workspace username in the <strong>Username</strong> field. If you do not enter “adrf”, or accidently include a “/” instead of a “\”, you will not be able to connect to Redshift. <strong>If you are having trouble connecting, an incorrect entry in Username is most likely the culprit.</strong></p>
 <section id="creating-tables-in-a-pr-or-tr-schema-in-dbeaver" class="level3">
 <h3 class="anchored" data-anchor-id="creating-tables-in-a-pr-or-tr-schema-in-dbeaver">Creating tables in a PR or TR schema in Dbeaver</h3>
 <p>When users create tables in their PR (Research Project) or TR (Training Project) schema, the table is initially permissioned to the user only. This is analogous to creating a document or file in your U drive: Only you have access to the newly created table.</p>
@@ -675,7 +675,7 @@ quit;</code></pre>
 <p>Using the <code>SVL_QUERY_SUMMARY</code> view: To analyze query summary information by stream, do the following:</p>
 <p><strong>Step 1</strong>: <code>select query, elapsed, substring from svl_qlog order by query desc limit 5;</code></p>
 <p><strong>Step 2</strong>: <code>select * from svl_query_summary where query = MyQueryID order by stm, seg, step;</code></p>
-<p><em><strong>Execution Plan</strong></em>: Lastly, an execution plan is a detailed step-by-step processing plan used by the optimizer to fetch the rows. It can be enabled in the database using the following procedure:</p>
+<p><strong><em>Execution Plan</em></strong>: Lastly, an execution plan is a detailed step-by-step processing plan used by the optimizer to fetch the rows. It can be enabled in the database using the following procedure:</p>
 <ol type="1">
 <li>Click on SQL Editor in the menu bar.</li>
 <li>Click on Explain Execution Plan.</li>
