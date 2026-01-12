@@ -154,17 +154,17 @@
     "href": "03-onboarding.html#topics",
     "title": "3 Onboarding Modules and Security Training",
     "section": "",
-    "text": "3 Onboarding Modules and Security Training\n\nTopics\nManagement Portal\nAccessing the Onboarding Tasks\nSigning the ADRF Terms of Use Agreement\nWatching the Security Training Video\nComplete the Security Training Quiz",
+    "text": "PASS Portal\nAccessing the Onboarding Tasks",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Onboarding Modules and Security Training</span>"
     ]
   },
   {
-    "objectID": "03-onboarding.html#management-portal",
-    "href": "03-onboarding.html#management-portal",
+    "objectID": "03-onboarding.html#pass-portal",
+    "href": "03-onboarding.html#pass-portal",
     "title": "3 Onboarding Modules and Security Training",
-    "section": "Management Portal",
-    "text": "Management Portal\nThe Management Portal web-based application is positioned primarily as the management and monitoring console for project and data stewards. It provides detailed insight on project configurations, user activity, user onboarding status, and overall cost of a project on the ADRF. We focus on four primary pillars of information a Project/Data Steward most often focuses on:\n\nPeople – Who are the members of projects, how often do they use the ADRF, what exports have they requested and their status, estimated cost per person/project for current month and for the project since inception, and detailed usage metrics.\nProjects – Details of project start/end dates, abstract description, number of members onboarded and pending, and resources the project has access to (i.e. datasets, etc).\nDatasets – Description of the dataset, location on the ADRF (database or file system), size, name of the data steward(s), and the link to Enterprise Data Catalog (Informatica) describing the dataset and metadata.\nAgreements – What agreements are related to these projects, indication of each member’s signing status, members pending signature, and term (dates) covered by the agreement(s).\n\nAs mentioned, the Management Portal application will track your ADRF usage. The portal will also consolidate your ADRF Terms of Use, Security Training Quiz, and Security Training Video into one place. In order to complete ADRF onboarding, all three of the mentioned tasks are to be completed by the user (researcher). To access the Management Portal, log in using your credentials at https://adrf.okta.com and click on the ADRF Management Portal icon:\n\n\n\nADRF Management Portal Icon\n\n\nOnce inside the Management Portal, you have access to your personal workspace sessions statistics along with admin tasks such as the three onboarding tasks and password management. See the example below:\n\n\n\nManagement Portal Insights Page",
+    "section": "Coleridge PASS (Privacy, Access, Safety, Security)",
+    "text": "Coleridge PASS (Privacy, Access, Safety, Security)\n\n\n\n\n\n\n\nad1ba50 (updating guide)\n\n\n\n\n\n\n\nThe Coleridge PASS web-based application is positioned primarily as the management and monitoring console for project and data stewards. It provides detailed insight on project configurations, user activity, user onboarding status, and overall cost of a project on the ADRF. We focus on four primary pillars of information a Project/Data Steward most often focuses on:\n\nPeople – Who are the members of projects, how often do they use the ADRF, what exports have they requested and their status, estimated cost per person/project for current month and for the project since inception, and detailed usage metrics.\nProjects – Details of project start/end dates, abstract description, number of members onboarded and pending, and resources the project has access to (i.e. datasets, etc).\nDatasets – Description of the dataset, location on the ADRF (database or file system), size, name of the data steward(s), and the data catalog describing the dataset and metadata.\nAgreements – What agreements are related to these projects, indication of each member’s signing status, members pending signature, and term (dates) covered by the agreement(s).\n\nAs mentioned, the PASS portal application will track your ADRF usage. The portal will also consolidate your ADRF Terms of Use, Security Training Quiz, and Security Training Video into one place. In order to complete ADRF onboarding, all three of the mentioned tasks are to be completed by the user (researcher). To access the PASS Portal, log in using your credentials at https://adrf.okta.com and click on the PASS Portal icon:\n\n\n\nADRF PASS Icon\n\n\nOnce inside the PASS Portal, you have access to your personal workspace sessions statistics along with admin tasks such as the three onboarding tasks and password management. See the example below:\n\n\n\nPASS Portal Insights Page",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Onboarding Modules and Security Training</span>"
     ]
@@ -174,37 +174,17 @@
     "href": "03-onboarding.html#accessing-the-onboarding-tasks",
     "title": "3 Onboarding Modules and Security Training",
     "section": "Accessing the Onboarding Tasks",
-    "text": "Accessing the Onboarding Tasks\nTo gain access to your ADRF project workspace, you must first complete 3 required ADRF onboarding tasks:\n\nSigning the ADRF Terms of Use agreement. Users must comply with the Terms of Use when working in the ADRF. The Agreement covers rules of behavior within ADRF and guidelines for discussing ADRF content prior to passing disclosure review. It asks users to agree to a series of principles governing dataset use, behavior, and data export procedures, and to acknowledge the consequences of violating the Terms.\nCompleting security awareness training. Users will get access to a security awareness video and should confirm that they have reviewed the video. The video covers security content that is then assessed during the security awareness quiz.\nPassing the security awareness quiz. The security awareness quiz consists of a set of 6 questions. Users must achieve a score 5 out of 6 to pass the quiz. Unsuccessful users can retake the quiz to achieve a passing score.\n\nFollow the steps below to access the ADRF Onboarding Tasks:\n\nLog in to the Management Portal\nClick on “Admin Tasks” in the left navigation menu.\n\n\n\n\nClick on ‘Admin Tasks’ in the left navigation menu\n\n\n\nClick on “Complete Onboarding”.\n\n\n\n\nClick on ‘Complete Onboarding’\n\n\n\nThis will load the Onboarding Tasks window.\n\n\n\n\nOnboarding Tasks window\n\n\n\nClick on each individual task to complete it.",
+    "text": "Accessing the Onboarding Tasks\nTo gain access to your ADRF project workspace, you must first complete 3 required ADRF onboarding tasks:\n\nSigning the ADRF Terms of Use agreement. Users must comply with the Terms of Use when working in the ADRF. The Agreement covers rules of behavior within ADRF and guidelines for discussing ADRF content prior to passing disclosure review. It asks users to agree to a series of principles governing dataset use, behavior, and data export procedures, and to acknowledge the consequences of violating the Terms.\nCompleting security awareness training. Users will get access to a security awareness video and should confirm that they have reviewed the video. The video covers security content that is then assessed during the security awareness quiz.\nPassing the security awareness quiz. The security awareness quiz consists of a set of 6 questions. Users must achieve a score 5 out of 6 to pass the quiz. Unsuccessful users can retake the quiz to achieve a passing score.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Onboarding Modules and Security Training</span>"
     ]
   },
   {
-    "objectID": "03-onboarding.html#signing-the-adrf-terms-of-use-agreement",
-    "href": "03-onboarding.html#signing-the-adrf-terms-of-use-agreement",
+    "objectID": "03-onboarding.html#accessing-the-onboarding-tasks-1",
+    "href": "03-onboarding.html#accessing-the-onboarding-tasks-1",
     "title": "3 Onboarding Modules and Security Training",
-    "section": "Signing the ADRF Terms of Use Agreement",
-    "text": "Signing the ADRF Terms of Use Agreement\nThe Terms of Use need to be completed before you are given access to the data and project space inside the ADRF. To complete ADRF Terms of Use, complete the following steps:\n\nClick on the “Terms of Use” tile.\n\n\n\n\nTerms of Use Tile\n\n\n\nClick on “Sign with DocuSign”\n\n\n\n\nSign with DocuSign\n\n\n\nYou will then be redirected to the DocuSign signing page. Click “Continue” on the upper right corner.\n\n\n\n\nClick Continue\n\n\n\nClick “Start” to begin.\n\n\n\n\nClick Start to begin\n\n\n\nIf you have already configured a signature, click on the yellow “Sign” button to apply it. Otherwise, follow the prompts to configure your electronic signature.\n\n\n\n\nClick the yellow Sign button to apply your signature\n\n\n\nOnce the signature is applied, click “Finish”.\n\n\n\n\nClick Finish\n\n\nYou will then be redirected back to the management portal; and the “Terms of Use” task will be marked as completed.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Onboarding Modules and Security Training</span>"
-    ]
-  },
-  {
-    "objectID": "03-onboarding.html#watching-the-security-training-video",
-    "href": "03-onboarding.html#watching-the-security-training-video",
-    "title": "3 Onboarding Modules and Security Training",
-    "section": "Watching the Security Training Video",
-    "text": "Watching the Security Training Video\nYou will also need to watch the ADRF Security Training Video.\n\n\n\nADRF Security Training Video\n\n\nTo complete this portion of the ADRF Security Training, do the following:\n\nClick on the “Security Training Video” tile to load the player and then click play.\nOnce you have watched the video in its entirety, click on the “Mark as Complete” button to complete the task. Note: the “MARK AS COMPLETE” button will not be enabled until at least 5 minutes have passed since the start of the video.\nClick on the back arrow in the upper right corner to return to the main tasks panel.\nThe training video section will now be marked as completed.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Onboarding Modules and Security Training</span>"
-    ]
-  },
-  {
-    "objectID": "03-onboarding.html#complete-the-security-training-quiz",
-    "href": "03-onboarding.html#complete-the-security-training-quiz",
-    "title": "3 Onboarding Modules and Security Training",
-    "section": "Complete the Security Training Quiz",
-    "text": "Complete the Security Training Quiz\nThe Security Training Quiz needs to be completed after the Security Training Video. To complete the training, complete the following steps:\n\nClick on the “Security Quiz” tile to load the quiz.\n\n\n\n\nClick on the Security Quiz tile\n\n\n\nAnswer the questions and click on the “SUBMIT RESPONSE” button. You must answer at least four of the questions correctly to complete this task.\n\n\n\n\nClick on the Submit Response button\n\n\n\nYou will be automatically redirected to the main task panel once the questionnaire has been successfully completed. And the “Security Quiz” will be marked as completed.\n\n\n\n\nSecurity Quiz Complete\n\n\n\n⬅️ Previous: Obtaining ADRF Access | Back to Home | Next: How to Access and Use Your Project Workspace➡️)",
+    "section": "Accessing the Onboarding Tasks]",
+    "text": "Accessing the Onboarding Tasks]\nFollow the steps below to access the ADRF Onboarding Tasks:\n\nLog in to the PASS Portal\nOnce open, the onboarding tasks will appear and then click on “DocuSign”:\n\n\n\n\nClick on ‘DocuSign’\n\n\n\nThis will load a document to sign:\n\n\n\n\n‘DocuSign’ Document\n\n\n\nOnce signed, this will load the Security Training Video.\n\n\n\n\nSecurity Training Video\n\n\n\nOnce finished, the Completed icon will illuminate. The final task is the security quiz:\n\n\n\n\nSecurity Quiz\n\n\n\n⬅️ Previous: Obtaining ADRF Access | Back to Home | Next: How to Access and Use Your Project Workspace➡️)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Onboarding Modules and Security Training</span>"
     ]
@@ -734,7 +714,7 @@
     "href": "14-faq.html#how-can-i-reset-my-adrf-password",
     "title": "14 Frequently Asked Questions (FAQ)",
     "section": "How can I reset my ADRF password?",
-    "text": "How can I reset my ADRF password?\nYou can reset your ADRF project password by following these steps:\n\nClick on the ADRF Management Portal Okta Tile:\n\n\n\n\nADRF Management Portal Icon\n\n\n\nThen click on Admin Tasks on the left hand side of the screen:\n\n\n\n\nAdmin Tasks\n\n\n\nThen click on RESET PASSWORD:\n\n\n\n\nReset Password\n\n\nYou’ll see a screen where you can choose the project(s) for which you want to update the password.",
+    "text": "How can I reset my ADRF password?\nYou can reset your ADRF project password by following these steps:\n\nClick on the PASS Portal Okta Tile:\n\n\n\n\nPASS Portal Icon\n\n\n\nThen click on Admin Tasks on the left hand side of the screen:\n\n\n\n\nAdmin Tasks\n\n\n\nThen click on RESET PASSWORD:\n\n\n\n\nReset Password\n\n\nYou’ll see a screen where you can choose the project(s) for which you want to update the password.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>14 Frequently Asked Questions (FAQ)</span>"
     ]
